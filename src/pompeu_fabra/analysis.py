@@ -31,6 +31,13 @@ LATENCY_STYLE = {
     "title": "Average latency per model (per message)",
     "xlabel": "Average latency per message (seconds — lower is better)",
 }
+GRAMMAR_LATENCY_STYLE = {
+    "title": "Grammar vs latency (per message)",
+    "xlabel": "Average latency per message (seconds — lower is better)",
+    "ylabel": "Average grammar score (higher is better)",
+    "highlight_color": "#D95F02",
+    "point_color": "#6BAED6",
+}
 
 
 def _load_json(path: Path) -> Dict[str, Any]:
@@ -228,6 +235,79 @@ def plot_latency_bar(per_model: pd.DataFrame) -> Path:
     return figure_path
 
 
+def plot_grammar_latency_scatter(per_model: pd.DataFrame) -> Path:
+    grammar_column = "grammar_avg"
+    latency_column = "latency_seconds_per_message_avg"
+
+    missing_columns = [
+        column
+        for column in (grammar_column, latency_column)
+        if column not in per_model.columns
+    ]
+    if missing_columns:
+        raise ValueError(
+            f"Missing required columns for grammar vs latency plot: {missing_columns}"
+        )
+
+    chart_data = (
+        per_model.reset_index()[["model", grammar_column, latency_column]]
+        .dropna(subset=[grammar_column, latency_column])
+        .sort_values(grammar_column, ascending=False)
+    )
+    if chart_data.empty:
+        raise ValueError("No combined grammar and latency data available to plot.")
+
+    chart_data["grammar_rank"] = chart_data[grammar_column].rank(
+        ascending=False, method="dense"
+    )
+    chart_data["latency_rank"] = chart_data[latency_column].rank(
+        ascending=True, method="dense"
+    )
+    chart_data["combined_rank"] = chart_data["grammar_rank"] + chart_data["latency_rank"]
+    best_row = chart_data.nsmallest(1, "combined_rank").iloc[0]
+
+    figure_path = ANALYSIS_DIR / "grammar_vs_latency.png"
+    plt.figure(figsize=(10, 7))
+    ax = sns.scatterplot(
+        data=chart_data,
+        x=latency_column,
+        y=grammar_column,
+        s=110,
+        color=GRAMMAR_LATENCY_STYLE["point_color"],
+        edgecolor="black",
+    )
+
+    ax.scatter(
+        best_row[latency_column],
+        best_row[grammar_column],
+        s=160,
+        color=GRAMMAR_LATENCY_STYLE["highlight_color"],
+        edgecolor="black",
+        zorder=5,
+        label=f"Best trade-off: {best_row['model']}",
+    )
+
+    for _, row in chart_data.iterrows():
+        ax.text(
+            row[latency_column],
+            row[grammar_column] + 0.008,
+            row["model"],
+            ha="center",
+            va="bottom",
+            fontsize=9,
+        )
+
+    ax.set_title(GRAMMAR_LATENCY_STYLE["title"])
+    ax.set_xlabel(GRAMMAR_LATENCY_STYLE["xlabel"])
+    ax.set_ylabel(GRAMMAR_LATENCY_STYLE["ylabel"])
+    ax.legend(loc="lower left", fontsize=9, frameon=True)
+    sns.despine()
+    plt.tight_layout()
+    plt.savefig(figure_path, dpi=220)
+    plt.close()
+    return figure_path
+
+
 def identify_metric_leaders(per_model: pd.DataFrame) -> Dict[str, Dict[str, Any]]:
     leaders: Dict[str, Dict[str, Any]] = {}
     for metric in METRIC_KEYS:
@@ -285,6 +365,10 @@ def main() -> None:
 
     figure_paths = [plot_metric_bar(per_model, metric) for metric in METRIC_KEYS]
     figure_paths.append(plot_latency_bar(per_model))
+    try:
+        figure_paths.append(plot_grammar_latency_scatter(per_model))
+    except ValueError as error:
+        print(f"Skipping grammar vs latency plot: {error}")
     summary = build_summary(per_model)
     write_summary(summary)
 

@@ -19,6 +19,7 @@ The command will install the required Python dependencies (pandas, seaborn, matp
 - `openaiO3` also sets the pace for quality (0.962), correctness (0.992), and Catalan grammar accuracy (0.997).
 - `anthropicClaude45Haiku` now leads completeness (0.895), narrowly beating `openaiGpt4oMini` (0.892).
 - `openaiGpt4o` is the quickest responder at 2.949 seconds per message, comfortably ahead of the next-fastest model.
+- A new scatter plot shows `openaiO3` delivering the best blend of grammar precision and latency, with `gpt51` and `openaiGpt4oMini` close behind.
 - Five models clear the 0.90 overall threshold, but completeness remains the key separator.
 - Models with no recorded scores are omitted from the charts to keep the comparisons clean.
 
@@ -28,6 +29,7 @@ Key artefacts:
 - `analysis/grammar_avg_by_model.png` – bar chart of per-model average grammar scores.
 - `analysis/completeness_avg_by_model.png` – bar chart of per-model average completeness scores.
 - `analysis/average_latency_by_model.png` – bar chart of per-model average latency per message (lower is better).
+- `analysis/grammar_vs_latency.png` – scatter plot comparing grammar accuracy against latency to surface the best trade-offs.
 - `analysis/metrics_by_model.csv` – per-model averages ready for spreadsheet work.
 - `analysis/judgements_flat.csv` – flattened row-per-judgement export if you want to slice further.
 
@@ -41,6 +43,8 @@ Key artefacts:
 ![Average completeness score per model](analysis/completeness_avg_by_model.png)
 
 ![Average latency per model (per message)](analysis/average_latency_by_model.png)
+
+![Grammar vs latency (per message)](analysis/grammar_vs_latency.png)
 
 ## Conclusion
 `openaiO3` remains the overall benchmark thanks to its balanced performance across every metric, while it also delivers the best Catalan grammar scores in the study. For raw speed, `openaiGpt4o` leads the field with the lowest average per-message latency (2.949 seconds).
