@@ -1,0 +1,34 @@
+{
+  "goal": "Your goal is to find out if there is any ongoing discounts",
+  "modelName": "openaiGpt4o",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "gpt-4o",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola! Estava mirant algunes coses a la vostra botiga i volia saber si teniu cap descompte actualment?"
+    },
+    {
+      "from": "store",
+      "message": "Hola! Actualment, oferim un descompte del 15% per als membres del nostre Summit Club en la majoria de les compres. També tenim promocions especials en roba resistent al clima i equips d'acampada aquesta setmana. Si necessites més informació sobre alguna oferta específica, estaré encantat d'ajudar-te!"
+    }
+  ],
+  "startTime": 1763568333563,
+  "endTime": 1763568338267
+}

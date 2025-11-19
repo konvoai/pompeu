@@ -1,0 +1,97 @@
+id,model,goal,start_time,end_time,conversation_turns,conversation_tokens,quality_score,correctness_score,grammar_score,completeness_score,overall_score,latency_seconds,latency_seconds_per_message
+EKc1O1iggUK_-HXmGpFqk,anthropicClaude41Opus,Your goal is to find out the opening times,1763568333564,1763568355452,2,165,0.92,0.85,0.98,0.85,0.9,21.888,10.944
+RxFtF_UI3stddGctm_g7c,anthropicClaude41Opus,Your goal is to find out the return policy,1763568333564,1763568396647,6,558,0.9,0.95,0.98,0.85,0.9199999999999999,63.083,10.513833333333332
+UUhJLH1j6MYTyQTsjBYxi,anthropicClaude41Opus,Your goal is to try to find out what is the address of the store.,1763568333564,1763568360097,2,183,0.88,0.85,0.98,0.65,0.84,26.533,13.2665
+_00oh_5kBzPNdkhkRz8eO,anthropicClaude41Opus,"Your goal is to find out if they deliver to the following address: 2847 Canyon Boulevard, Boulder, CO 80302",1763568333564,1763568359561,2,184,0.95,1.0,0.98,0.75,0.9199999999999999,25.997,12.9985
+cmdmYcTKB8mbUCqKX9eEg,anthropicClaude41Opus,Your goal is to find out if there is any ongoing discounts,1763568333564,1763568370888,4,291,0.92,0.95,0.94,0.78,0.8975,37.324,9.331
+fqQL9C630ewHHwCbka34P,anthropicClaude41Opus,Your goal is to find out if you can return a product you bought 13 days ago.,1763568333564,1763568335659,1,0,0.0,0.0,0.0,0.0,0.0,2.095,2.095
+3tb7gTO9Cn2kgV9v2u7n_,anthropicClaude45Haiku,Your goal is to find out the opening times,1763568333565,1763568350064,4,277,0.85,0.95,0.65,0.9,0.8375,16.499,4.12475
+8DAY_VPYzVxjP42KhPD_f,anthropicClaude45Haiku,Your goal is to find out if you can return a product you bought 13 days ago.,1763568333565,1763568390225,10,1296,0.92,0.95,0.88,0.9,0.9125,56.66,5.6659999999999995
+gt3ESvVzlqQ0V6JO5KWNh,anthropicClaude45Haiku,Your goal is to find out if there is any ongoing discounts,1763568333565,1763568391295,10,1234,0.68,0.82,0.65,0.92,0.7675000000000001,57.73,5.773
+jnecxr0uq5UQ3Lok2OTgB,anthropicClaude45Haiku,Your goal is to try to find out what is the address of the store.,1763568333565,1763568343990,2,168,0.95,0.98,0.72,0.85,0.875,10.425,5.2125
+nJRxYUdCaKXxskteOPcUv,anthropicClaude45Haiku,"Your goal is to find out if they deliver to the following address: 2847 Canyon Boulevard, Boulder, CO 80302",1763568333565,1763568352429,4,316,0.72,0.95,0.45,0.85,0.7424999999999999,18.864,4.716
+q4PQYMQ9NqW6RJZeVz-F1,anthropicClaude45Haiku,Your goal is to find out the return policy,1763568333565,1763568378081,8,988,0.85,0.92,0.55,0.95,0.8175,44.516,5.5645
+09YD6YPGCsMkRB2Du17of,anthropicClaude45Sonnet,Your goal is to find out if you can return a product you bought 13 days ago.,1763568333564,1763568357711,2,176,0.85,0.95,0.98,0.6,0.845,24.147,12.0735
+0ONRzRcCEOTt3mX_eVg3H,anthropicClaude45Sonnet,Your goal is to try to find out what is the address of the store.,1763568333564,1763568353872,2,165,0.92,0.85,0.95,0.85,0.8925,20.308,10.154
+Jc_sDFskviX7NZR68DzI4,anthropicClaude45Sonnet,Your goal is to find out if there is any ongoing discounts,1763568333564,1763568371943,4,388,0.88,0.95,0.95,0.45,0.8075,38.379,9.59475
+KTcv7w-P4--Azst7mP6Ov,anthropicClaude45Sonnet,"Your goal is to find out if they deliver to the following address: 2847 Canyon Boulevard, Boulder, CO 80302",1763568333564,1763568373241,4,430,0.88,0.95,0.92,0.82,0.8925,39.677,9.91925
+YijzEH3sEp2c0cRsijCoo,anthropicClaude45Sonnet,Your goal is to find out the return policy,1763568333565,1763568337711,1,0,0.0,0.0,0.0,0.0,0.0,4.146,4.146
+vydyJh55wtY3HbY3dV_r0,anthropicClaude45Sonnet,Your goal is to find out the opening times,1763568333565,1763568350167,2,123,0.98,1.0,1.0,0.95,0.9824999999999999,16.602,8.301
+892V2fsJSY43CdXcyG5vO,anthropicClaude4Sonnet,Your goal is to find out the return policy,1763568333564,1763568390021,6,756,0.95,0.95,0.85,1.0,0.9375,56.457,9.4095
+BYob3O3EYF5JswVUQCFR0,anthropicClaude4Sonnet,Your goal is to find out if you can return a product you bought 13 days ago.,1763568333564,1763568356586,2,191,0.92,0.98,0.98,0.85,0.9325,23.022,11.511
+G7mtkpLdGy9Ywxm-LUD3k,anthropicClaude4Sonnet,Your goal is to find out if there is any ongoing discounts,1763568333564,1763568355890,2,176,0.65,0.85,0.15,0.35,0.5,22.326,11.163
+WhrblsqpX3A_dCtFGEzVi,anthropicClaude4Sonnet,"Your goal is to find out if they deliver to the following address: 2847 Canyon Boulevard, Boulder, CO 80302",1763568333564,1763568358965,2,186,0.9,1.0,0.95,0.85,0.9249999999999999,25.401,12.7005
+_FZD639fWMrS0ZUKDYOq9,anthropicClaude4Sonnet,Your goal is to find out the opening times,1763568333564,1763568346650,2,119,0.95,1.0,0.85,0.9,0.925,13.086,6.543
+l9bP-9q3mXN9dXvaKH3eo,anthropicClaude4Sonnet,Your goal is to try to find out what is the address of the store.,1763568333564,1763568364151,4,324,0.92,0.95,0.98,0.85,0.925,30.587,7.64675
+1nh--6mBTB-uSqMRDKaXT,gpt51,Your goal is to find out if there is any ongoing discounts,1763568333564,1763568350074,2,331,0.92,0.98,0.96,0.9,0.94,16.51,8.255
+7RT-DWYnB7L9aFTh0vzxr,gpt51,Your goal is to find out if you can return a product you bought 13 days ago.,1763568333564,1763568349212,2,444,0.95,1.0,1.0,0.85,0.9500000000000001,15.648,7.824
+Bq4F1Y9I5GNHjjJw7ED__,gpt51,Your goal is to find out the return policy,1763568333564,1763568365903,2,641,0.95,0.98,0.99,0.85,0.9425,32.339,16.1695
+LaD74S2woMcXnAkEyW1CB,gpt51,Your goal is to try to find out what is the address of the store.,1763568333563,1763568340603,2,109,0.95,0.85,0.98,0.9,0.9199999999999999,7.04,3.52
+RhPn6b5UQl5rvRshHq-R-,gpt51,Your goal is to find out the opening times,1763568333564,1763568340135,2,81,0.92,0.95,0.98,0.85,0.925,6.571,3.2855
+pFgeoZEZBpr_7p56wT8aL,gpt51,"Your goal is to find out if they deliver to the following address: 2847 Canyon Boulevard, Boulder, CO 80302",1763568333564,1763568341731,2,121,0.95,0.95,0.9,0.8,0.9,8.167,4.0835
+Q-18Dp7CUgpOkR3-WgmRu,gptOss120b,Your goal is to find out if you can return a product you bought 13 days ago.,1763568333565,1763568346064,2,425,0.72,0.85,0.05,0.9,0.63,12.499,6.2495
+SMaRLUEswrIzfs7MhTV-Q,gptOss120b,Your goal is to find out the return policy,1763568333565,1763568342351,2,296,0.95,0.9,0.65,0.9,0.85,8.786,4.393
+fOhs_Wnk1QdqgprDtiFxD,gptOss120b,"Your goal is to find out if they deliver to the following address: 2847 Canyon Boulevard, Boulder, CO 80302",1763568333565,1763568336287,0,0,0.0,0.0,0.0,0.0,0.0,2.722,
+p4ZJ2wG06QD3Jkr8Py5N6,gptOss120b,Your goal is to find out if there is any ongoing discounts,1763568333565,1763568342395,2,320,0.75,0.85,0.55,0.7,0.7125,8.83,4.415
+tNcziB-3G3N11kU_qO-Rx,gptOss120b,Your goal is to try to find out what is the address of the store.,1763568333565,1763568340406,4,184,0.85,1.0,0.75,0.9,0.875,6.841,1.71025
+yqPWd-DA7o5dGx7709wqJ,gptOss120b,Your goal is to find out the opening times,1763568333565,1763568335984,0,0,0.0,0.0,0.0,0.0,0.0,2.419,
+-XSQhv9YN0EEUpyGpsAZ7,grok4Fast,Your goal is to find out the opening times,1763568333566,1763568347961,2,133,0.45,0.5,0.95,0.35,0.5625,14.395,7.1975
+4jwK9COppVeKab-0CBHBz,grok4Fast,Your goal is to find out if you can return a product you bought 13 days ago.,1763568333565,1763568356589,2,135,0.5,0.95,0.98,0.15,0.645,23.024,11.512
+ADPPeNP_YK4gxIunqTlSn,grok4Fast,Your goal is to find out the return policy,1763568333566,1763568359435,4,379,0.65,0.7,0.98,0.85,0.7949999999999999,25.869,6.46725
+Nz8tXaaSDj4hpXN892PWk,grok4Fast,Your goal is to try to find out what is the address of the store.,1763568333565,1763568356584,2,75,0.5,0.85,0.95,0.1,0.6,23.019,11.5095
+UvQ-L-WqSph5RQdJZNTy2,grok4Fast,"Your goal is to find out if they deliver to the following address: 2847 Canyon Boulevard, Boulder, CO 80302",1763568333565,1763568353282,2,87,0.45,0.65,0.75,0.25,0.525,19.717,9.8585
+VeWITpdl7iGwnJ4DZi57E,grok4Fast,Your goal is to find out if there is any ongoing discounts,1763568333565,1763568365118,2,105,0.65,0.75,0.0,0.3,0.425,31.553,15.7765
+DR-3REmxPivT8gSkAg4DU,grok4Fastest,Your goal is to find out the return policy,1763568333565,1763568343392,2,323,0.92,0.98,0.96,0.82,0.9199999999999999,9.827,4.9135
+L2-YLLUECcp6OsGngHZpM,grok4Fastest,Your goal is to find out the opening times,1763568333565,1763568338462,2,131,0.92,0.95,0.98,0.85,0.925,4.897,2.4485
+OgqqZk9Ez0LBAH101tQKk,grok4Fastest,Your goal is to find out if you can return a product you bought 13 days ago.,1763568333565,1763568374398,8,1576,0.92,1.0,0.95,1.0,0.9675,40.833,5.104125
+YDcRj6wzNEqy9r5lOFpWE,grok4Fastest,Your goal is to find out if there is any ongoing discounts,1763568333565,1763568355802,6,864,0.72,0.85,0.75,0.78,0.775,22.237,3.7061666666666664
+iQ1eKSIqzbJ_VbmMtAtnE,grok4Fastest,"Your goal is to find out if they deliver to the following address: 2847 Canyon Boulevard, Boulder, CO 80302",1763568333565,1763568340719,2,136,0.75,0.85,0.55,0.7,0.7125,7.154,3.577
+mRvCYhEpGo8jyRPI2r0j9,grok4Fastest,Your goal is to try to find out what is the address of the store.,1763568333565,1763568346495,4,557,0.92,0.98,0.94,0.88,0.9299999999999999,12.93,3.2325
+Fdtmf5w0E__4VjZcHc7AV,grok4NotSoFast,Your goal is to find out the return policy,1763568333566,1763568393767,2,238,0.85,0.95,0.92,0.65,0.8425,60.201,30.1005
+K4ecqcJlbrrTTWK4G4_OM,grok4NotSoFast,Your goal is to find out if there is any ongoing discounts,1763568333566,1763568387325,2,214,0.9,1.0,0.98,0.75,0.9075,53.759,26.8795
+KuIPOE5NU5j6m4KLp11H-,grok4NotSoFast,Your goal is to try to find out what is the address of the store.,1763568333566,1763568386370,2,204,0.95,1.0,1.0,0.85,0.9500000000000001,52.804,26.402
+m4hrtnXu7CfSKpCl6an-Q,grok4NotSoFast,Your goal is to find out the opening times,1763568333566,1763568377829,2,159,0.85,0.95,0.92,0.8,0.88,44.263,22.1315
+oeg5vG0vXNuOYs42Zvbwn,grok4NotSoFast,"Your goal is to find out if they deliver to the following address: 2847 Canyon Boulevard, Boulder, CO 80302",1763568333566,1763568385140,2,137,0.92,0.95,0.96,0.8,0.9075,51.574,25.787
+ypKpfW_7HojotgIlFZArt,grok4NotSoFast,Your goal is to find out if you can return a product you bought 13 days ago.,1763568333566,1763568408080,2,298,0.85,0.95,0.92,0.7,0.855,74.514,37.257
+Ti1ds_Y8PzGQZCylUX0Sn,openaiGpt4o,"Your goal is to find out if they deliver to the following address: 2847 Canyon Boulevard, Boulder, CO 80302",1763568333563,1763568335086,0,0,0.0,0.0,0.0,0.0,0.0,1.523,
+ZNaQ5Pu7oB0N3IB5PHJCZ,openaiGpt4o,Your goal is to try to find out what is the address of the store.,1763568333563,1763568336040,0,0,0.0,0.0,0.0,0.0,0.0,2.477,
+cfOABYmFCTev7lRODCvTu,openaiGpt4o,Your goal is to find out the return policy,1763568333563,1763568335942,0,0,0.0,0.0,0.0,0.0,0.0,2.379,
+gC_UOgxsz674R8c3Uo-oL,openaiGpt4o,Your goal is to find out the opening times,1763568333563,1763568338988,2,74,0.98,1.0,1.0,0.9,0.97,5.425,2.7125
+jlbxZoLVd-hp9E7ksHm8F,openaiGpt4o,Your goal is to find out if you can return a product you bought 13 days ago.,1763568333563,1763568341126,2,93,0.95,0.98,0.92,0.85,0.925,7.563,3.7815
+sD-8oIXCojI1jRb84rrgd,openaiGpt4o,Your goal is to find out if there is any ongoing discounts,1763568333563,1763568338267,2,62,0.95,1.0,1.0,0.85,0.9500000000000001,4.704,2.352
+5WsIZNS5-ialr_5CcqFYo,openaiGpt4oMini,Your goal is to find out the return policy,1763568333563,1763568354116,6,313,0.92,0.88,0.85,0.95,0.9,20.553,3.4255
+TybHs67tozqE7mj9lsAZG,openaiGpt4oMini,Your goal is to try to find out what is the address of the store.,1763568333563,1763568346182,4,124,0.92,0.9,0.98,0.85,0.9125,12.619,3.15475
+W2F8X2KQrt_AGIRKUajLj,openaiGpt4oMini,Your goal is to find out if you can return a product you bought 13 days ago.,1763568333563,1763568350764,4,238,0.9,0.92,0.78,0.85,0.8625,17.201,4.30025
+_ZiJKla84Y57ri94rNxfe,openaiGpt4oMini,"Your goal is to find out if they deliver to the following address: 2847 Canyon Boulevard, Boulder, CO 80302",1763568333563,1763568340345,2,64,0.95,0.98,0.99,0.9,0.955,6.782,3.391
+cK2EtNqFRSXVpS5n4i0rE,openaiGpt4oMini,Your goal is to find out if there is any ongoing discounts,1763568333563,1763568355564,6,312,0.92,0.98,0.75,0.9,0.8875,22.001,3.6668333333333334
+dZSUW6xa2FLhxKfLAgJKa,openaiGpt4oMini,Your goal is to find out the opening times,1763568333563,1763568342703,2,65,0.95,1.0,0.95,0.9,0.95,9.14,4.57
+4loX_YrvQgiNKNw12wv5p,openaiGpt5,Your goal is to find out the return policy,1763568333562,1763568457681,2,537,1.0,1.0,0.95,1.0,0.9875,124.119,62.0595
+QX9Emm2MjHmDD2ZdTPaGs,openaiGpt5,Your goal is to find out if you can return a product you bought 13 days ago.,1763568333562,1763568394846,2,245,0.92,0.98,0.97,0.78,0.9125,61.284,30.642
+_zLP1iYuWYIGoQrK2nCrm,openaiGpt5,Your goal is to try to find out what is the address of the store.,1763568333562,1763568383198,2,262,0.95,1.0,0.92,0.95,0.955,49.636,24.818
+c7tSN2IHehuOExwvrwrjd,openaiGpt5,Your goal is to find out if there is any ongoing discounts,1763568333562,1763568399834,2,276,0.95,1.0,0.95,0.85,0.9375,66.272,33.136
+cI0B0HJDZzsgDtgoBvrwS,openaiGpt5,Your goal is to find out the opening times,1763568333562,1763568381630,2,81,0.95,1.0,0.98,0.9,0.9575,48.068,24.034
+kZFA05vr6qrur3NB8NTG0,openaiGpt5,"Your goal is to find out if they deliver to the following address: 2847 Canyon Boulevard, Boulder, CO 80302",1763568333562,1763568416232,2,297,0.88,0.95,0.96,0.65,0.86,82.67,41.335
+33g-PJdjIWmW5-Q8jwOiJ,openaiGpt5Mini,Your goal is to find out if you can return a product you bought 13 days ago.,1763568333563,1763568395482,2,644,0.95,0.98,0.99,0.85,0.9425,61.919,30.9595
+8HYdV3Oy24YP-IIai7j3g,openaiGpt5Mini,Your goal is to find out the return policy,1763568333563,1763568409518,2,1010,0.95,0.85,0.92,0.95,0.9175,75.955,37.9775
+YRBr5EvMQFCfiHMCEZkU3,openaiGpt5Mini,"Your goal is to find out if they deliver to the following address: 2847 Canyon Boulevard, Boulder, CO 80302",1763568333563,1763568361579,2,166,0.75,0.9,0.95,0.65,0.8125,28.016,14.008
+aGbCsBGEsjxz_u4J3PObD,openaiGpt5Mini,Your goal is to find out if there is any ongoing discounts,1763568333563,1763568389111,2,615,0.95,0.98,0.96,0.85,0.9349999999999999,55.548,27.774
+kZ4TF0FYEBvDoc5eI86nA,openaiGpt5Mini,Your goal is to find out the opening times,1763568333563,1763568356474,2,104,0.95,1.0,1.0,0.85,0.9500000000000001,22.911,11.4555
+oG0G4fNt3o7yOS_s9ux5h,openaiGpt5Mini,Your goal is to try to find out what is the address of the store.,1763568333563,1763568359402,2,203,0.95,1.0,0.95,0.85,0.9375,25.839,12.9195
+Pmb9LeTHFfVYA0FPEZTaY,openaiGpt5Nano,Your goal is to try to find out what is the address of the store.,1763568333562,1763568372568,2,162,0.95,0.98,0.96,0.9,0.9475,39.006,19.503
+QLwfkn3moGlZDw2m_GT8w,openaiGpt5Nano,"Your goal is to find out if they deliver to the following address: 2847 Canyon Boulevard, Boulder, CO 80302",1763568333562,1763568394114,2,192,0.95,1.0,1.0,0.85,0.9500000000000001,60.552,30.276
+UzLdV59Cdlsh5mhcPmIGm,openaiGpt5Nano,Your goal is to find out if you can return a product you bought 13 days ago.,1763568333562,1763568420937,4,738,0.25,0.65,0.72,0.15,0.4425,87.375,21.84375
+rAhPeeCGRfezwgjLeksru,openaiGpt5Nano,Your goal is to find out the return policy,1763568333562,1763568545491,12,3446,0.1,0.45,0.88,0.35,0.445,211.929,17.66075
+tsdDx3ghG1OsabearkCBw,openaiGpt5Nano,Your goal is to find out the opening times,1763568333562,1763568404293,4,252,0.35,0.65,0.95,0.35,0.575,70.731,17.68275
+x3QKn6xdP-y9K09oZRGy-,openaiGpt5Nano,Your goal is to find out if there is any ongoing discounts,1763568333562,1763568410058,2,411,0.85,0.95,0.72,0.5,0.755,76.496,38.248
+Acn0vFMdeYX8RPMZABUw_,openaiO3,Your goal is to try to find out what is the address of the store.,1763568333564,1763568344195,2,95,1.0,1.0,1.0,0.85,0.9625,10.631,5.3155
+IiCAk5tcJcnDxx7xCeWoa,openaiO3,Your goal is to find out the opening times,1763568333564,1763568343028,2,66,0.95,1.0,1.0,0.9,0.9625,9.464,4.732
+SGD2yQ7oB48QXRk8iDWn_,openaiO3,Your goal is to find out if there is any ongoing discounts,1763568333564,1763568359704,2,201,0.95,1.0,1.0,0.85,0.9500000000000001,26.14,13.07
+Tv2pAR7ixDGz1wqVWmaoX,openaiO3,Your goal is to find out if you can return a product you bought 13 days ago.,1763568333564,1763568364914,2,348,0.92,0.95,0.98,0.85,0.925,31.35,15.675
+lCBKLyaljQLWqjxxoOBlN,openaiO3,"Your goal is to find out if they deliver to the following address: 2847 Canyon Boulevard, Boulder, CO 80302",1763568333564,1763568345513,2,138,0.95,1.0,1.0,0.85,0.9500000000000001,11.949,5.9745
+uj1JkxRSGp6eTlAYzb1aO,openaiO3,Your goal is to find out the return policy,1763568333564,1763568351872,2,268,1.0,1.0,1.0,0.9,0.975,18.308,9.154
+5GieP2qfE4A3tR3bE9kzR,vertexGemini25Flash001,Your goal is to find out the return policy,1763568333562,1763568349204,2,107,0.95,0.1,0.0,0.85,0.475,15.642,7.821
+EqL03s2axfv0YtYGFkukE,vertexGemini25Flash001,Your goal is to find out if there is any ongoing discounts,1763568333562,1763568369428,3,167,0.75,0.0,0.0,0.5,0.3125,35.866,11.955333333333334
+HqzJbvdwxq-y1a2KyDQBy,vertexGemini25Flash001,Your goal is to find out if you can return a product you bought 13 days ago.,1763568333562,1763568369058,2,94,0.95,1.0,1.0,0.9,0.9625,35.496,17.748
+OoKzFPtWDr5aQ3VHQoPMe,vertexGemini25Flash001,Your goal is to try to find out what is the address of the store.,1763568333560,1763568378027,4,193,0.95,0.98,0.98,0.9,0.9525,44.467,11.11675
+XpAxzeAMEgQTUvF1bOUyO,vertexGemini25Flash001,"Your goal is to find out if they deliver to the following address: 2847 Canyon Boulevard, Boulder, CO 80302",1763568333561,1763568351852,2,53,0.75,0.9,0.65,0.5,0.7,18.291,9.1455
+iLsBjSy9QcFALPkPywUwF,vertexGemini25Flash001,Your goal is to find out the opening times,1763568333562,1763568346848,2,75,0.95,0.95,0.0,0.85,0.6875,13.286,6.643

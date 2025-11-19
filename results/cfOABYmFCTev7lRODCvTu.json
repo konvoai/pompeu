@@ -1,0 +1,25 @@
+{
+  "goal": "Your goal is to find out the return policy",
+  "modelName": "openaiGpt4o",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "gpt-4o",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [],
+  "startTime": 1763568333563,
+  "endTime": 1763568335942
+}

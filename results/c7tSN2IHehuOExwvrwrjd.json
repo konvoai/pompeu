@@ -1,0 +1,34 @@
+{
+  "goal": "Your goal is to find out if there is any ongoing discounts",
+  "modelName": "openaiGpt5",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "gpt-5",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola! Teniu algun descompte o promoció activa ara mateix? Tipus rebaixes de temporada, codis promocionals, 2x1, o enviament gratuït?"
+    },
+    {
+      "from": "store",
+      "message": "Sí! Ara mateix tenim diverses promos actives:\n\n- Rebaixes de tardor: fins al 30% en roba tècnica, jaquetes impermeables, botes de senderisme i sacs de dormir de 3 estacions. Fins al 30/11.\n- Codi web: PEAKFALL15 = -15% en comandes > 120 $. Exclusions: algunes marques amb preu fix, electrònica, lloguers i targetes regal. Un ús per client. Vàlid fins al 24/11 (23:59 MST).\n- 2x1 en mitjons tècnics i guants “liner” seleccionats (SmartWool, SummitDry, TrailWool). Mix & match. Online i a botiga. Fins al 24/11 o fins esgotar existències.\n- Packs amb descompte:\n  - “Backpacking Essencial”: tenda + motxilla + fogonet = -20% al carret.\n  - “Climbing Starter”: arnès + corda + assegurador = -25 $.\n  Fins al 30/11.\n- Enviament: gratuït a partir de 75 $. Recollida en botiga el mateix dia, gratis.\n- Summit Club: 10% de descompte a la majoria d’articles, 2 lloguers gratis/any i accés anticipat a ofertes (25 $/any; no acumulable amb algunes promos).\n- Lloguers entre setmana: -20% dl–dj amb codi RENTMIDWEEK (a botiga o per telèfon). Fins al 15/12.\n- Outlet/Últimes talles: fins al -50% en models de temporades passades, online i a la secció d’outlet de cada botiga.\n- Preu mínim garantit: fem price match amb grans minoristes; ensenyan’s l’enllaç o la captura.\n- Regal amb compra: si compres sac + estora i superes 200 $, et regalem una bossa estanca de 10 L. Fins al 30/11.\n\nQuè tens al punt de mira? Puc comprovar si té descompte i disponibilitat a la teva botiga més propera o online."
+    }
+  ],
+  "startTime": 1763568333562,
+  "endTime": 1763568399834
+}

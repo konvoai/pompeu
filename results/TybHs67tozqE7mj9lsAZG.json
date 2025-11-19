@@ -1,0 +1,42 @@
+{
+  "goal": "Your goal is to try to find out what is the address of the store.",
+  "modelName": "openaiGpt4oMini",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "gpt-4o-mini",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola! Gràcies per estar aquí. Tinc algunes preguntes sobre les vostres botigues. Em podries ajudar?"
+    },
+    {
+      "from": "store",
+      "message": "Hola! És un plaer ajudar-te. Quines preguntes tens sobre les nostres botigues? Estaré encantat de respondre’t!"
+    },
+    {
+      "from": "buyer",
+      "message": "M'agradaria saber on es troba la vostra botiga física. Podries donar-me l'adreça?"
+    },
+    {
+      "from": "store",
+      "message": "Per descomptat! Tenim diverses botigues físiques. Aquí tens les adreces:\n\n1. **Botiga Principal - Boulder, CO**  \n   2847 Canyon Boulevard, Boulder, CO 80302\n\n2. **Ubicació de Denver**  \n   1523 Larimer Street, Denver, CO 80202\n\n3. **Botiga de Fort Collins**  \n   891 College Avenue, Fort Collins, CO 80524\n\n4. **Posta de Durango**  \n   456 Main Avenue, Durango, CO 81301\n\n5. **Salt Lake City, UT**  \n   732 South State Street, Salt Lake City, UT 84111\n\nSi necessites més informació sobre una botiga en concret, no dubtis a dir-ho!"
+    }
+  ],
+  "startTime": 1763568333563,
+  "endTime": 1763568346182
+}

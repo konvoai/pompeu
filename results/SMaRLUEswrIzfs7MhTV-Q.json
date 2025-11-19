@@ -1,0 +1,23 @@
+{
+  "goal": "Your goal is to find out the return policy",
+  "modelName": "gptOss120b",
+  "model": {
+    "modelId": "openai.gpt-oss-120b-1:0",
+    "config": {},
+    "specificationVersion": "v2",
+    "provider": "amazon-bedrock",
+    "supportedUrls": {}
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola! Bon dia. Em voldria informar sobre la vostra política de devolucions, si us plau."
+    },
+    {
+      "from": "store",
+      "message": "¡Hola! Bon dia! 😊  \n\n**Política de devolucions de Mountain Peak Outdoor Supply**\n\n| Aspecte | Detall |\n|---|---|\n| **Termini per a retorns** | Acceptem devolucions **dins dels 60 dies** posteriors a la compra (mostrant el rebut). |\n| **Condicions del producte** | - Ha d’estar sense usar i amb les etiquetes originals. <br> - Si l’article ha estat utilitzat, només es pot tornar dins dels **14 dies** i **exclusivament si és defectuós**. |\n| **Productes defectuosos** | Si detectes algun defecte, porta’l a la botiga o envia’ns una foto del problema; t’oferirem una substitució o el reemborsament al mateix preu. |\n| **Reemborsaments** | - Reemborsament al método de pagament original. <br> - En cas d’haver utilitzat un cupó o descompte, s’aplicarà al reemborsament. |\n| **Com fer la devolució** | 1. Portar el rebut i l’article a qualsevol de les nostres botigues. <br>2. O bé, sol·licitar una **etiqueta de devolució** des del nostre portal web (a la secció “Comandes > Devolucions”). <br>3. Embalar l’article de forma segura i enviar‑lo al centre de devolucions (si s’opta per la opció online). |\n| **Despeses d’enviament** | - Si la devolució és per un defecte o error nostre, les despeses d’enviament corren per la nostra part. <br> - En qualsevol altra situació, l’client assumirà les despeses d’enviament. |\n| **Excepcions** | No acceptem devolucions de productes d’higiene personal, alimentació, o articles personalitzats, excepte que presentin defecte de fabricació. |\n\nSi tens algun article específic que voldries tornar o necessites més detalls (com l’estat d’una comanda online), només cal que ens ho indiquis i t’ajudarem pas a pas.  \n\n¡Esperem que aquesta informació et sigui útil! 🌄  \nSi tens qualsevol altra consulta, aquí estem."
+    }
+  ],
+  "startTime": 1763568333565,
+  "endTime": 1763568342351
+}

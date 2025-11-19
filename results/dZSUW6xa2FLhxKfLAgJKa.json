@@ -1,0 +1,34 @@
+{
+  "goal": "Your goal is to find out the opening times",
+  "modelName": "openaiGpt4oMini",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "gpt-4o-mini",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola! Bona tarda. Podries ajudar-me, si us plau? Voldria saber quins són els horaris d'obertura de la botiga. Gràcies!"
+    },
+    {
+      "from": "store",
+      "message": "Hola! Bona tarda! Clar que sí, estaré encantat d'ajudar-te. Els horaris d'obertura de les nostres botigues són:\n\n**De dilluns a divendres:** 9:00 AM - 8:00 PM  \n**Dissabte:** 8:00 AM - 9:00 PM  \n**Diumenge:** 10:00 AM - 6:00 PM  \n\nSi necessites més informació, no dubtis a preguntar!"
+    }
+  ],
+  "startTime": 1763568333563,
+  "endTime": 1763568342703
+}

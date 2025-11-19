@@ -1,0 +1,34 @@
+{
+  "goal": "Your goal is to try to find out what is the address of the store.",
+  "modelName": "openaiGpt5Nano",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "gpt-5-nano",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Gràcies! Em podries indicar l’adreça física completa de Mountain Peak? Necessito el carrer i número, la ciutat, el codi postal i el país. Si tens un enllaç de Google Maps o un mapa de la botiga, també va molt bé. Gràcies!"
+    },
+    {
+      "from": "store",
+      "message": "És clar! Aquestes són les adreces físiques completes de les nostres botigues Mountain Peak Outdoor Supply. Tenim diverses ubicacions:\n\n- Flagship Store – Boulder, CO\n  2847 Canyon Boulevard, Boulder, CO 80302, United States\n  Google Maps: https://maps.google.com/?q=2847+Canyon+Boulevard+Boulder+CO+80302+USA\n\n- Denver Location\n  1523 Larimer Street, Denver, CO 80202, United States\n  Google Maps: https://maps.google.com/?q=1523+Larimer+Street+Denver+CO+80202+USA\n\n- Fort Collins Store\n  891 College Avenue, Fort Collins, CO 80524, United States\n  Google Maps: https://maps.google.com/?q=891+College+Avenue+Fort+Collins+CO+80524+USA\n\n- Durango Outpost\n  456 Main Avenue, Durango, CO 81301, United States\n  Google Maps: https://maps.google.com/?q=456+Main+Avenue+Durango+CO+81301+USA\n\n- Salt Lake City, UT\n  732 South State Street, Salt Lake City, UT 84111, United States\n  Google Maps: https://maps.google.com/?q=732+South+State+Street+Salt+Lake+City+UT+84111+USA\n\nSi vols, puc enviar-te enllaços directes per a qualsevol ubicació o ajudar-te a trobar la més propera segons la teva ubicació. Gràcies!"
+    }
+  ],
+  "startTime": 1763568333562,
+  "endTime": 1763568372568
+}

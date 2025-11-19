@@ -1,0 +1,34 @@
+{
+  "goal": "Your goal is to find out if they deliver to the following address: 2847 Canyon Boulevard, Boulder, CO 80302",
+  "modelName": "openaiGpt4oMini",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "gpt-4o-mini",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola! Tinc una pregunta sobre l'enviament. Feu entregues a l'adreça següent: 2847 Canyon Boulevard, Boulder, CO 80302?"
+    },
+    {
+      "from": "store",
+      "message": "Hola! Sí, farem entregues a l'adreça 2847 Canyon Boulevard, Boulder, CO 80302. Si realitzes una compra en línia, pots seleccionar l'opció d'enviament a aquesta adreça. A més, recorda que l'enviament és gratuït per a comandes superiors a 75 dòlars. Si tens més preguntes, no dubtis a preguntar!"
+    }
+  ],
+  "startTime": 1763568333563,
+  "endTime": 1763568340345
+}

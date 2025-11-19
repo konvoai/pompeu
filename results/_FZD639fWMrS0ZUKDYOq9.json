@@ -1,0 +1,24 @@
+{
+  "goal": "Your goal is to find out the opening times",
+  "modelName": "anthropicClaude4Sonnet",
+  "model": {
+    "specificationVersion": "v2",
+    "modelId": "claude-sonnet-4-20250514",
+    "config": {
+      "provider": "anthropic.messages",
+      "baseURL": "https://api.anthropic.com/v1"
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "\n\nHola! Bon dia. M'agradaria saber quins són els horaris d'obertura de la vostra botiga. Podríeu dir-me quan obriu i tanqueu?"
+    },
+    {
+      "from": "store",
+      "message": "¡Hola! Bon dia!\n\nEls nostres horaris d'obertura són els següents:\n\n**De dilluns a divendres:** 9:00 AM - 8:00 PM\n**Dissabte:** 8:00 AM - 9:00 PM  \n**Diumenge:** 10:00 AM - 6:00 PM\n\nAquests horaris s'apliquen a totes les nostres ubicacions: Boulder (la botiga principal), Denver, Fort Collins, Durango i Salt Lake City.\n\nDurant les vacances els horaris poden variar, així que et recomano que consultes la nostra pàgina web o truquis abans de venir per confirmar.\n\nHi ha alguna cosa més en què et pugui ajudar? Potser estàs buscant algun equipament específic per a les teves aventures a l'aire lliure?"
+    }
+  ],
+  "startTime": 1763568333564,
+  "endTime": 1763568346650
+}

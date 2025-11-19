@@ -1,0 +1,42 @@
+{
+  "goal": "Your goal is to find out if you can return a product you bought 13 days ago.",
+  "modelName": "openaiGpt4oMini",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "gpt-4o-mini",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola! Estic aquí per fer una consulta sobre un producte que vaig comprar fa 13 dies. Puc retornar-lo?"
+    },
+    {
+      "from": "store",
+      "message": "Hola! Si el producte que vas comprar fa 13 dies és defectuós, pots retornar-lo. Si està en bon estat i no ha estat utilitzat, el nostre termini de retorn és de 60 dies amb el tiquet de compra. Si necessites més ajuda o informació, estic aquí per ajudar-te!"
+    },
+    {
+      "from": "buyer",
+      "message": "Perfecte! El producte està en bon estat i no l'he utilitzat. Podria retornar-lo sense problemes. Quins passos he de seguir per fer la devolució?"
+    },
+    {
+      "from": "store",
+      "message": "Fantàstic! Aquí tens els passos a seguir per fer la devolució:\n\n1. **Reuneix el tiquet de compra**: Assegura't de tenir el tiquet o comprovant de compra amb tu.\n\n2. **Porta el producte**: Porta el producte devoratge al nostre local, assegurant-te que està en bon estat i amb l'etiqueta original.\n\n3. **Visita el servei d’atenció al client**: A l’arribar, dirigeix-te al servei d'atenció al client i informa'ls que voldries fer una devolució.\n\n4. **Omple la paperassa**: Pot ser que hagis de completar un formulari de devolució. El personal t’ajudarà amb això si ho necessites.\n\n5. **Rebo el reemborsament**: Una vegada completats els passos, t'hem de retornar els diners al mètode de pagament original.\n\nSi tens qualsevol dubte durant el procés, no dubtis a preguntar al personal de la botiga. Si et va millor, també pots fer la devolució a qualsevol de les nostres ubicacions. ¡Espero que tot vagi bé!"
+    }
+  ],
+  "startTime": 1763568333563,
+  "endTime": 1763568350764
+}

@@ -1,0 +1,50 @@
+{
+  "goal": "Your goal is to find out if there is any ongoing discounts",
+  "modelName": "openaiGpt4oMini",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "gpt-4o-mini",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola! Bon dia! Voldria saber si teniu alguna promoció o descompte actual. Gràcies!"
+    },
+    {
+      "from": "store",
+      "message": "¡Bon dia! Actualment, tenim una promoció especial per als membres del nostre programa Summit Club, que ofereix un 10% de descompte en la majoria de compres. A més, si compres en línia i la teva comanda supera els 75 dòlars, et proporcionem l'enviament gratuït. \n\nTampoc t'oblidis que podem preus iguals amb altres botigues, així que si veus alguna oferta en una altra botiga, porta'ns l'anunci! Si necessites més informació sobre alguna promoció específica, només cal que ho diguis. Estaré encantat d'ajudar-te!"
+    },
+    {
+      "from": "buyer",
+      "message": "Gràcies per la informació! Així doncs, el 10% de descompte és només per als membres del programa Summit Club? Hi ha alguna manera de fer-se membre ràpidament?"
+    },
+    {
+      "from": "store",
+      "message": "Sí, el 10% de descompte és exclusiu per als membres del programa Summit Club. Per fer-te membre ràpidament, només has de visitar qualsevol de les nostres botigues o registrar-te a la nostra pàgina web. La quota anual és de 25 dòlars, i podràs gaudir dels beneficis immediatament, com el descompte del 10%, accés anticipat a les vendes, i dues lloguers gratuïts de material a l’any.\n\nSi tens més preguntes sobre el programa o necessites ajuda per registrar-te, no dubtis a preguntar!"
+    },
+    {
+      "from": "buyer",
+      "message": "Molt bé, gràcies! Una última pregunta: els descomptes per a membres es poden combinar amb altres ofertes o promocions?"
+    },
+    {
+      "from": "store",
+      "message": "Els descomptes per a membres del Summit Club generalment no es poden combinar amb altres ofertes o promocions, ja que és un descompte exclusiu que ja està dissenyat per oferir un bon valor als nostres membres. Tanmateix, sempre podràs aprofitar l'enviament gratuït en comandes de més de 75 dòlars, independentment de si ets membre o no.\n\nSi en el futur hi ha alguna promoció especial que permeti combinar descomptes, ho anunciarem a la nostra web i a les botigues. Si tens més preguntes o necessites ajuda amb alguna cosa, aquí estic!"
+    }
+  ],
+  "startTime": 1763568333563,
+  "endTime": 1763568355564
+}

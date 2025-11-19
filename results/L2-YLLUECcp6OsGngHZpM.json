@@ -1,0 +1,29 @@
+{
+  "goal": "Your goal is to find out the opening times",
+  "modelName": "grok4Fastest",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ]
+    },
+    "modelId": "grok-4-fast-non-reasoning",
+    "config": {
+      "provider": "xai.chat",
+      "baseURL": "https://api.x.ai/v1"
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Bon dia! Estic interessat en comprar unes botes de muntanya, però abans voldria saber els horaris d'obertura de la botiga. Podeu dir-me quan esteu oberts?"
+    },
+    {
+      "from": "store",
+      "message": "Bon dia! Gràcies pel teu interès en les botes de muntanya. A Mountain Peak Outdoor Supply estem oberts amb els següents horaris a totes les nostres botigues:\n\n- **Dilluns a divendres:** de 9:00 a 20:00 h  \n- **Dissabte:** de 8:00 a 21:00 h  \n- **Diumenge:** de 10:00 a 18:00 h  \n\nEls horaris poden variar en festius, així que et recomano consultar el nostre lloc web o trucar a la botiga més propera per confirmar. Si em dius quina localització tens en ment (com Boulder, Denver o una altra), et puc donar més detalls. Vols que t'ajudi a triar unes botes adequades per al teu tipus d'activitat?"
+    }
+  ],
+  "startTime": 1763568333565,
+  "endTime": 1763568338462
+}

@@ -1,0 +1,34 @@
+{
+  "goal": "Your goal is to find out if you can return a product you bought 13 days ago.",
+  "modelName": "openaiGpt4o",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "gpt-4o",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola! Vaig comprar un producte fa 13 dies i voldria saber si el puc tornar. Podries ajudar-me amb això, si us plau?"
+    },
+    {
+      "from": "store",
+      "message": "Hola! Per descomptat, estaré encantat d'ajudar-te. Si el producte que vas comprar està sense utilitzar i amb les etiquetes originals, el pots tornar dins dels 60 dies següents a la compra amb el tiquet de compra. Si el producte està usat i presenta algun defecte, encara tens 1 dia per fer la devolució, ja que acceptem devolucions per defectes en un termini de 14 dies. Si tens alguna altra pregunta, digueu-m'ho!"
+    }
+  ],
+  "startTime": 1763568333563,
+  "endTime": 1763568341126
+}

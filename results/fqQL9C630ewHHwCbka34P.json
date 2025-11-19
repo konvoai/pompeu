@@ -1,0 +1,20 @@
+{
+  "goal": "Your goal is to find out if you can return a product you bought 13 days ago.",
+  "modelName": "anthropicClaude41Opus",
+  "model": {
+    "specificationVersion": "v2",
+    "modelId": "claude-opus-4-1-20250805",
+    "config": {
+      "provider": "anthropic.messages",
+      "baseURL": "https://api.anthropic.com/v1"
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": ""
+    }
+  ],
+  "startTime": 1763568333564,
+  "endTime": 1763568335659
+}

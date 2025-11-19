@@ -1,0 +1,33 @@
+{
+  "id": "1nh--6mBTB-uSqMRDKaXT",
+  "goal": "Your goal is to find out if there is any ongoing discounts",
+  "modelName": "gpt51",
+  "startTime": 1763568333564,
+  "endTime": 1763568350074,
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola! Estic mirant algunes coses a la vostra botiga i volia saber: teniu algun descompte actiu ara mateix? Per exemple, algun codi promocional, rebaixes de temporada o oferta per compres superiors a un cert import?"
+    },
+    {
+      "from": "store",
+      "message": "Sí, ara mateix tenim diversos descomptes actius a Mountain Peak:\n\n1. **Codi promocional online**\n   - `PEAK10` → 10% de descompte en la primera comanda online  \n   - Vàlid per compres superiors a **50 €** (o equivalent en $ si mires la web en USD)\n   - No s’aplica a targetes regal ni serveis de reparació\n\n2. **Rebaixes de temporada (tardor/hivern)**\n   - **Roba tècnica de muntanya**: fins a un **30% de descompte**\n   - **Botes de trekking de la temporada passada**: 20–25% de descompte\n   - **Sacs de dormir 3 estacions**: 15% de descompte en una selecció de models\n   - Les rebaixes poden variar lleugerament segons la botiga física i l’estoc\n\n3. **Descompte per import mínim**\n   - Compres superiors a **150 €**: 15 € de descompte automàtic (online i a botiga)\n   - Compres superiors a **250 €**: enviament gratuït + regal sorpresa (normalment accessori petit: mosquetó, buff, etc.)\n\n4. **Summit Club (el nostre programa de fidelització)**\n   - 10% de descompte gairebé en totes les compres durant tot l’any\n   - Costa **25 €/any**, però si t’hi apuntes ara:\n     - Et retornem **10 € en val de compra** per gastar en la teva primera compra com a membre\n     - A més tens **2 lloguers de material gratuïts/any** (tenda, sac, motxilla o similar)\n\n5. **Ofertes especials en lloguer de material**\n   - Lloguer per a cap de setmana (divendres–dilluns) → **pagues 2 dies, en tens 3**\n   - Pack complet de càmping (tenda + sac + màrfega + fogonet): 15% de descompte sobre el preu total\n\nSi m’expliques:\n- què vols comprar (roba, calçat, tenda, material d’escalada, etc.)\n- i si ho vols online o en una de les nostres botigues,\n\net puc dir exactament quina combinació de descomptes et surt més a compte i si podem aplicar més d’una oferta alhora en el teu cas."
+    }
+  ],
+  "quality": {
+    "reasoning": "La conversa és eficient i productiva. El comprador fa una pregunta clara sobre descomptes disponibles, i la botiga respon de manera exhaustiva amb informació detallada i ben estructurada. La resposta és directa i completa, oferint tots els tipus de descomptes actius. La botiga també ofereix proactivament ajuda addicional si el client proporciona més informació sobre les seves necessitats. No hi ha repeticions innecessàries ni missatges superflus. La conversa és curta però altament efectiva.",
+    "score": 0.92
+  },
+  "correctness": {
+    "reasoning": "Tota la informació proporcionada per la botiga sembla rellevant i específica. Els descomptes estan clarament detallats amb percentatges, imports mínims, codis promocionals i condicions. No hi ha informació contradictòria ni inexacta aparent. La resposta és totalment rellevant a la pregunta del comprador sobre descomptes actius. No s'observen comentaris personals o fora de tema. La informació és precisa i ben organitzada.",
+    "score": 0.98
+  },
+  "grammar": {
+    "reasoning": "El català utilitzat és correcte i natural tant pel comprador com per la botiga. L'ortografia, la puntuació i la sintaxi són adequades. Hi ha un ús mínim d'anglicismes acceptats en contextos comercials (online, buff). S'utilitzen correctament els signes de puntuació, accents i apòstrofs catalans. No s'observen errors gramaticals significatius ni interferències de l'espanyol o altres llengües. La redacció és fluida i professional.",
+    "score": 0.96
+  },
+  "completeness": {
+    "reasoning": "La pregunta del comprador sobre descomptes actius ha estat completament resposta amb informació detallada i exhaustiva. La botiga ha proporcionat cinc categories diferents de descomptes amb condicions específiques. A més, la botiga ofereix ajuda addicional per optimitzar els descomptes segons les necessitats concretes del client. Tot i que el comprador no ha confirmat explícitament que està satisfet, la seva pregunta ha estat completament atesa amb una resposta molt completa que cobreix tots els aspectes sol·licitats.",
+    "score": 0.9
+  }
+}

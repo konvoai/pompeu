@@ -1,0 +1,34 @@
+{
+  "goal": "Your goal is to try to find out what is the address of the store.",
+  "modelName": "gpt51",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "gpt-5.1",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola! Estic mirant alguns productes de la vostra botiga i em preguntava: teniu alguna botiga física? Si és així, em podríeu dir l’adreça exacta (carrer, número, ciutat i codi postal)?"
+    },
+    {
+      "from": "store",
+      "message": "Sí, tenim diverses botigues físiques. Et deixo totes les adreces completes:\n\n- **Flagship Store - Boulder, CO**  \n  2847 Canyon Boulevard, Boulder, CO 80302  \n\n- **Denver Location**  \n  1523 Larimer Street, Denver, CO 80202  \n\n- **Fort Collins Store**  \n  891 College Avenue, Fort Collins, CO 80524  \n\n- **Durango Outpost**  \n  456 Main Avenue, Durango, CO 81301  \n\n- **Salt Lake City, UT**  \n  732 South State Street, Salt Lake City, UT 84111  \n\nSi em dius des d’on vens, et puc recomanar quina t’aniria millor visitar."
+    }
+  ],
+  "startTime": 1763568333563,
+  "endTime": 1763568340603
+}

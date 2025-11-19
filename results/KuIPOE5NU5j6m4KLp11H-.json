@@ -1,0 +1,29 @@
+{
+  "goal": "Your goal is to try to find out what is the address of the store.",
+  "modelName": "grok4NotSoFast",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ]
+    },
+    "modelId": "grok-4",
+    "config": {
+      "provider": "xai.chat",
+      "baseURL": "https://api.x.ai/v1"
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola, bon dia! Estic interessat en alguns productes de la vostra botiga, però m'agradaria saber si teniu una adreça física on pugui anar a veure'ls en persona. Podries dir-me on esteu ubicats?"
+    },
+    {
+      "from": "store",
+      "message": "Hola, bon dia! Moltes gràcies per l'interès en els nostres productes a Mountain Peak Outdoor Supply. Sí, tenim diverses botigues físiques on pots anar a veure i provar l'equipament en persona. Estem ubicats principalment a Colorado i Utah, als Estats Units. Aquí et detallo les nostres localitzacions:\n\n- **Botiga principal - Boulder, CO**: 2847 Canyon Boulevard, Boulder, CO 80302  \n- **Denver**: 1523 Larimer Street, Denver, CO 80202  \n- **Fort Collins**: 891 College Avenue, Fort Collins, CO 80524  \n- **Durango**: 456 Main Avenue, Durango, CO 81301  \n- **Salt Lake City, UT**: 732 South State Street, Salt Lake City, UT 84111  \n\nEls horaris són de dilluns a divendres de 9:00 a 20:00, dissabtes de 8:00 a 21:00 i diumenges de 10:00 a 18:00 (pot variar en festius). Si ets a prop d'alguna d'aquestes zones, et recomano que visitis la botiga per veure els productes de primera mà – el nostre personal està encantat d'ajudar-te!\n\nEn quins productes estàs interessat específicament? Potser et puc donar més detalls o recomanacions abans de la teva visita. 😊"
+    }
+  ],
+  "startTime": 1763568333566,
+  "endTime": 1763568386370
+}

@@ -1,0 +1,24 @@
+{
+  "goal": "Your goal is to find out if they deliver to the following address: 2847 Canyon Boulevard, Boulder, CO 80302",
+  "modelName": "vertexGemini25Flash001",
+  "model": {
+    "specificationVersion": "v2",
+    "modelId": "gemini-2.5-flash-lite",
+    "config": {
+      "provider": "google.vertex.chat",
+      "baseURL": "https://europe-west1-aiplatform.googleapis.com/v1beta1/projects/development-hoola/locations/europe-west1/publishers/google"
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "\n\nClient: Hola! Estic interessat en fer una comanda, però primer necessito saber si fan lliurament a aquesta adreça: 2847 Canyon Boulevard, Boulder, CO 80302. Gràcies!"
+    },
+    {
+      "from": "store",
+      "message": "¡Hola! Sí, absolutament! Fem lliurament a l'adreça que has proporcionat: 2847 Canyon Boulevard, Boulder, CO 80302. Aquesta és de fet la nostra botiga principal!\n\nQuè t'agradaria demanar? 😊"
+    }
+  ],
+  "startTime": 1763568333561,
+  "endTime": 1763568351852
+}

@@ -1,0 +1,34 @@
+{
+  "goal": "Your goal is to find out the opening times",
+  "modelName": "gpt51",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "gpt-5.1",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Bon dia!  \n\nQuin horari d’obertura teniu a la botiga?"
+    },
+    {
+      "from": "store",
+      "message": "Bon dia!  \n\nL’horari d’obertura de les nostres botigues és:\n\n- **Dilluns a divendres:** 9:00 – 20:00  \n- **Dissabte:** 8:00 – 21:00  \n- **Diumenge:** 10:00 – 18:00  \n\nTingues en compte que en dies festius els horaris poden variar; és recomanable mirar la web o trucar abans d’anar-hi. Si em dius a quina ciutat vols anar (Boulder, Denver, Fort Collins, Durango o Salt Lake City), et puc donar també el telèfon i l’adreça exacta."
+    }
+  ],
+  "startTime": 1763568333564,
+  "endTime": 1763568340135
+}

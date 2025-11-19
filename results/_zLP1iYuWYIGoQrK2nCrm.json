@@ -1,0 +1,34 @@
+{
+  "goal": "Your goal is to try to find out what is the address of the store.",
+  "modelName": "openaiGpt5",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "gpt-5",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola! Em podríeu facilitar l’adreça completa de la vostra botiga (carrer, número, ciutat i codi postal)? Si teniu més d’una ubicació, m’aniria bé saber-les totes i, si pot ser, també l’horari. I, en cas que l’adreça per a devolucions sigui diferent, me la podríeu indicar també? Gràcies!"
+    },
+    {
+      "from": "store",
+      "message": "Hola! Clar que sí—t’indico totes les nostres ubicacions amb l’adreça completa i l’horari, i també l’adreça per a devolucions.\n\nBotigues Mountain Peak\n- Boulder (Flagship)\n  2847 Canyon Boulevard, Boulder, CO 80302\n- Denver\n  1523 Larimer Street, Denver, CO 80202\n- Fort Collins\n  891 College Avenue, Fort Collins, CO 80524\n- Durango\n  456 Main Avenue, Durango, CO 81301\n- Salt Lake City, UT\n  732 South State Street, Salt Lake City, UT 84111\n\nHorari de totes les botigues\n- Dilluns – Divendres: 9:00 – 20:00\n- Dissabte: 8:00 – 21:00\n- Diumenge: 10:00 – 18:00\n(En festius l’horari pot variar.)\n\nDevolucions\n- En persona: pots fer la devolució a qualsevol de les nostres botigues durant l’horari d’obertura.\n- Per correu (adreça de devolucions):\n  Mountain Peak Returns Center\n  6155 Arapahoe Road, Suite C\n  Boulder, CO 80303\n\nNotes sobre la política de devolucions\n- Devolucions dins de 60 dies amb tiquet/recibo; el material ha d’estar sense ús i amb etiquetes.\n- Producte utilitzat però defectuós: admetem devolució dins de 14 dies.\n- Si envies per correu, inclou el número de comanda i imprimeix l’etiqueta de devolució des del teu compte en línia (o demana-la a atenció al client).\n\nSi necessites que et generi una etiqueta de devolució o vols confirmar l’horari en una data concreta, digue-m’ho i t’ho gestiono!"
+    }
+  ],
+  "startTime": 1763568333562,
+  "endTime": 1763568383198
+}

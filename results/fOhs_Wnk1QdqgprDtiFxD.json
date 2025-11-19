@@ -1,0 +1,14 @@
+{
+  "goal": "Your goal is to find out if they deliver to the following address: 2847 Canyon Boulevard, Boulder, CO 80302",
+  "modelName": "gptOss120b",
+  "model": {
+    "modelId": "openai.gpt-oss-120b-1:0",
+    "config": {},
+    "specificationVersion": "v2",
+    "provider": "amazon-bedrock",
+    "supportedUrls": {}
+  },
+  "conversation": [],
+  "startTime": 1763568333565,
+  "endTime": 1763568336287
+}

@@ -1,0 +1,29 @@
+{
+  "goal": "Your goal is to find out the return policy",
+  "modelName": "grok4NotSoFast",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ]
+    },
+    "modelId": "grok-4",
+    "config": {
+      "provider": "xai.chat",
+      "baseURL": "https://api.x.ai/v1"
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola, bon dia! Estic interessat en comprar alguns productes, però primer vull saber quina és la vostra política de devolucions. Em pots explicar els detalls?"
+    },
+    {
+      "from": "store",
+      "message": "Hola, bon dia! Moltes gràcies per l'interès en Mountain Peak Outdoor Supply. Estic encantat d'ajudar-te amb la teva consulta sobre la nostra política de devolucions. Aquí tens els detalls principals:\n\n- **Devolucions generals**: Acceptem devolucions en un termini de 60 dies a partir de la data de compra, sempre que presentis el rebut original. Els productes han d'estar sense utilitzar, amb les etiquetes originals i en el seu embalatge original per rebre un reemborsament complet o un canvi.\n\n- **Productes usats**: Si l'equip ha estat utilitzat, només acceptem devolucions en un termini de 14 dies si hi ha un defecte de fabricació o un problema de qualitat. En aquests casos, inspeccionarem l'article per confirmar el problema i oferirem una reparació, un canvi o un reemborsament segons correspongui.\n\n- **Com fer una devolució**: Pots retornar els productes a qualsevol de les nostres botigues físiques (com la de Boulder, Denver, etc.) o enviar-los per correu si has comprat en línia. Recomanem contactar amb nosaltres prèviament per agilitar el procés. Les despeses d'enviament de devolució solen ser a càrrec del client, excepte en casos de defectes.\n\nSi tens qualsevol dubte addicional o vols saber més sobre productes específics que estàs considerant, digue'm! Quins tipus d'equipament estàs buscant? Podem recomanar-te opcions basades en les teves necessitats. 😊"
+    }
+  ],
+  "startTime": 1763568333566,
+  "endTime": 1763568393767
+}

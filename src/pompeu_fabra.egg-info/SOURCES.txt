@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/analyze.py
+src/pompeu_fabra/__init__.py
+src/pompeu_fabra/analysis.py
+src/pompeu_fabra.egg-info/PKG-INFO
+src/pompeu_fabra.egg-info/SOURCES.txt
+src/pompeu_fabra.egg-info/dependency_links.txt
+src/pompeu_fabra.egg-info/entry_points.txt
+src/pompeu_fabra.egg-info/requires.txt
+src/pompeu_fabra.egg-info/top_level.txt

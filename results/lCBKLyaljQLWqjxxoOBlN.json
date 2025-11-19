@@ -1,0 +1,34 @@
+{
+  "goal": "Your goal is to find out if they deliver to the following address: 2847 Canyon Boulevard, Boulder, CO 80302",
+  "modelName": "openaiO3",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "o3-2025-04-16",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola! Voldria confirmar si feu enviaments a aquesta adreça, si us plau: 2847 Canyon Boulevard, Boulder, CO 80302. Gràcies!"
+    },
+    {
+      "from": "store",
+      "message": "Hola!\n\nI tant! Enviem comandes a qualsevol punt dels Estats Units continental, i l’adreça que ens indiques —2847 Canyon Boulevard, Boulder, CO 80302— és precisament la del nostre establiment insígnia a Boulder. Tens dues opcions:\n\n1. Enviament a l’adreça: Et podem lliurar el paquet sense cap problema. Els enviaments estàndard triguen 2-5 dies laborables i són gratuïts per a comandes superiors a 75 $.  \n2. Recollida a la botiga (“Store Pickup”): Si prefereixes, pots fer la comanda en línia i recollir-la el mateix dia a la botiga; t’avisarem per correu electrònic quan estigui preparada.\n\nSi necessites res més o vols que tramitem la comanda, només cal que ens ho facis saber.\n\nGràcies per confiar en Mountain Peak Outdoor Supply!"
+    }
+  ],
+  "startTime": 1763568333564,
+  "endTime": 1763568345513
+}

@@ -1,0 +1,34 @@
+{
+  "goal": "Your goal is to find out the return policy",
+  "modelName": "openaiGpt5",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "gpt-5",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola! Em podeu explicar, si us plau, la vostra política de devolucions?\n\n- Termini per retornar (quants dies i des de quan compta)\n- Estat en què ha d’estar el producte i si cal el comprovant de compra\n- Si hi ha exclusions (rebaixes, productes d’ús personal, material usat, etc.)\n- Si el reemborsament és a l’original mètode de pagament o en val/credit botiga\n- Qui assumeix les despeses d’enviament de la devolució\n- Com s’inicia el procés (en línia, a botiga, etiqueta de retorn, etc.)\n- Terminis de processament i si oferiu canvis de talla/model\n\nGràcies!"
+    },
+    {
+      "from": "store",
+      "message": "És clar! Aquí tens la nostra política de devolucions de Mountain Peak Outdoor Supply:\n\n- Termini per retornar\n  - 60 dies des de la data de compra (o des de la recepció, per a comandes en línia).\n  - Material usat: es pot retornar només si és defectuós, dins dels 14 dies.\n\n- Estat del producte i comprovant\n  - Articles sense utilitzar, amb etiquetes i embalatge original intactes.\n  - Cal el comprovant de compra (tiquet, factura o correu de confirmació). Per a regals, acceptem tiquet regal.\n\n- Exclusions\n  - Articles “final sale”/liquidació i targetes regal: no admeten devolució.\n  - Productes d’ús personal oberts o utilitzats (roba interior/base layers, mitjons).\n  - Material de seguretat d’escalada un cop obert/ús (cordes, arnesos, cascs, mosquetons, dispositius d’assegurament) per motius de seguretat — només si tenen defecte de fabricació.\n  - Consumibles: aliments i gels, cartutxos de gas/combustible, productes de primers auxilis, bateries.\n  - Productes personalitzats.\n  - “Used Gear”/producte de segona mà: només devolució per defecte dins de 14 dies; la resta de vendes són finals.\n\n- Tipus de reemborsament\n  - Reemborsament al mètode de pagament original.\n  - Amb tiquet regal: crèdit de botiga.\n  - Sense comprovant: crèdit de botiga pel preu més baix dels últims 60 dies.\n  - Les despeses d’enviament originals no són reemborsables, excepte en cas d’error nostre o producte defectuós.\n\n- Despeses d’enviament de la devolució\n  - Si el producte és defectuós o hi ha un error nostre: etiqueta prepagada sense cost.\n  - En la resta de casos: podeu\n    - utilitzar la nostra etiqueta de retorn amb tarifa fixa de 6,95 $ (es descompta del reemborsament), o\n    - enviar pel vostre compte amb el transportista que preferiu.\n  - Devolució a botiga: sempre gratuïta.\n\n- Com iniciar el procés\n  - En línia: al Portal de Devolucions de la nostra web amb el número de comanda i codi postal; imprimireu una etiqueta. Un cop creada, teniu 30 dies per fer l’enviament.\n  - A botiga: porteu l’article i el comprovant a qualsevol de les nostres botigues.\n  - Articles voluminosos (tendes grans, cuines, etc.): contacteu-nos per programar recollida.\n\n- Terminis de processament i canvis\n  - Processament: 2–3 dies laborables un cop el paquet arriba al nostre magatzem. El banc pot trigar 3–7 dies addicionals a reflectir el reemborsament.\n  - Canvis de talla/model:\n    - A botiga: canvis immediats segons estoc.\n    - En línia: el més ràpid és fer una nova comanda i retornar l’article original. Si preferiu un canvi directament, podem reservar l’estoc durant 48 h un cop ens contacteu.\n\nSi vols, puc revisar el teu cas concret (tipus d’article i on el vas comprar) i t’indico el pas a pas i l’enllaç directe al Portal de Devolucions."
+    }
+  ],
+  "startTime": 1763568333562,
+  "endTime": 1763568457681
+}

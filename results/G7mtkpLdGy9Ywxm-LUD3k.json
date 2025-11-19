@@ -1,0 +1,24 @@
+{
+  "goal": "Your goal is to find out if there is any ongoing discounts",
+  "modelName": "anthropicClaude4Sonnet",
+  "model": {
+    "specificationVersion": "v2",
+    "modelId": "claude-sonnet-4-20250514",
+    "config": {
+      "provider": "anthropic.messages",
+      "baseURL": "https://api.anthropic.com/v1"
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "\n\nSupport agent: Hello! Welcome to Mountain Peak. How can I help you today?\n\nHola! Estic interessat en comprar algunes coses per a la muntanya i em preguntava si teniu algun descompte o oferta especial en aquests moments?"
+    },
+    {
+      "from": "store",
+      "message": "¡Hola! ¡Bienvenido a Mountain Peak Outdoor Supply! Me alegra saber que estás interesado en equipamiento de montaña.\n\nEn estos momentos tenemos algunas ofertas especiales:\n\n**Promociones actuales:**\n- 20% de descuento en todas las chaquetas y pantalones resistentes al clima\n- Oferta especial \"Prepárate para el invierno\": 15% de descuento en sacos de dormir y esterillas\n- Compra 2 pares de calcetines técnicos y obtén el tercero gratis\n\nTambién te recomiendo nuestro **Summit Club** - por solo $25 al año obtienes:\n- 10% de descuento en la mayoría de compras\n- Acceso anticipado a todas las rebajas\n- Dos alquileres de equipamiento gratis al año\n- Invitaciones a eventos exclusivos para miembros\n\n¿Hay algún tipo de equipamiento específico que estés buscando? ¿Tienes planeada alguna aventura en particular? Me encantaría ayudarte a encontrar exactamente lo que necesitas al mejor precio posible."
+    }
+  ],
+  "startTime": 1763568333564,
+  "endTime": 1763568355890
+}

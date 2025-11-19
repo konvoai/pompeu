@@ -1,0 +1,50 @@
+{
+  "goal": "Your goal is to find out the return policy",
+  "modelName": "openaiGpt4oMini",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "gpt-4o-mini",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola! Tinc una pregunta sobre la política de devolucions. Podríeu explicar-me com funciona, si us plau?"
+    },
+    {
+      "from": "store",
+      "message": "Hola! Clar que sí, estaré encantat d'ajudar-te. La nostra política de devolucions és la següent:\n\n- Acceptem devolucions dins dels 60 dies posteriors a la compra, sempre que tinguis el tiquet de compra.\n- L'equipament ha d'estar sense usar i amb les etiquetes originals.\n- Si has utilitzat l'equipament i resulta defectuós, pots fer la devolució dins dels 14 dies posteriors a la compra.\n\nSi tens més preguntes o necessites ajuda amb alguna altra cosa, no dubtis a dir-m'ho!"
+    },
+    {
+      "from": "buyer",
+      "message": "Gràcies per la informació! Podries confirmar si les devolucions són gratuïtes o si hi ha alguna despesa associada?"
+    },
+    {
+      "from": "store",
+      "message": "De res! Pel que fa a les devolucions, si les fas a la botiga, no hi ha cap despesa associada. Si decideixes enviar un article de tornada per correu, pot haver-hi despeses d'enviament que hauràs de cobrir. Et recomanem que convisquis amb el nostre equip, i ells poden ajudar-te a trobar la millor manera de gestionar la devolució.\n\nSi necessites més informació o tens altres preguntes, aquí estic!"
+    },
+    {
+      "from": "buyer",
+      "message": "Perfecte, moltes gràcies! Què passa si l'article és defectuós, com hauria de gestionar la devolució en aquest cas?"
+    },
+    {
+      "from": "store",
+      "message": "Si l'article és defectuós, pots gestionar la devolució d'aquesta manera:\n\n1. **Temps de Devolució**: Tindràs un termini de 14 dies posteriors a la compra per fer la devolució.\n  \n2. **Visita la Botiga**: Si és possible, porta l'article defectuós i el tiquet de compra a la botiga. El nostre equip estarà encantat d'ajudar-te a gestionar la devolució o a fer un canvi per un article nou.\n\n3. **Enviament**: Si no pots anar a la botiga, també pots enviar l'article defectuós. Si optes per aquesta opció, et recomanem que contactis amb nosaltres primer per obtenir instruccions específiques i confirmar si cobreix les despeses d'enviament.\n\nSi tens més preguntes o necessites assistència addicional, no dubtis a preguntar-m'ho!"
+    }
+  ],
+  "startTime": 1763568333563,
+  "endTime": 1763568354116
+}

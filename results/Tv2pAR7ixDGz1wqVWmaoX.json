@@ -1,0 +1,34 @@
+{
+  "goal": "Your goal is to find out if you can return a product you bought 13 days ago.",
+  "modelName": "openaiO3",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "o3-2025-04-16",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Bon dia! Vaig comprar un producte fa 13 dies i voldria saber si el puc retornar. Em podríeu indicar si encara sóc dins del termini de devolució i quin és el procediment, si us plau?"
+    },
+    {
+      "from": "store",
+      "message": "Bon dia!\n\nSí, ets dins del termini de devolució sense cap problema. El nostre període estàndard és de 60 dies a partir de la data de compra sempre que l’article estigui sense utilitzar i amb les etiquetes originals. Si l’has fet servir i presenta algun defecte, també el pots retornar perquè estàs dins dels 14 dies per a producte usat defectuós (tot just en portes 13).\n\nProcés de devolució:\n\n1. Reuneix la documentació  \n   • Tiquet o comprovant de compra (digital o en paper).  \n   • Embalatge i etiquetes originals.  \n   • Qualsevol accessori inclòs (bosses de transport, peces extra, instruccions, etc.).\n\n2. Tria com vols fer la devolució  \n   A) A qualsevol de les nostres botigues (Boulder, Denver, Fort Collins, Durango o Salt Lake City).  \n      • Porta el producte i el tiquet.  \n      • Un/a empleat/ada revisarà l’estat i et processarà la devolució o canvi al moment.  \n      • El reemborsament es fa al mateix mètode de pagament; sol trigar 3-5 dies hàbils a reflectir-se.  \n\n   B) Online (si vas comprar per la web o prefereixes enviar-lo)  \n      • Entra al teu compte a mountainpeakoutdoor.com i selecciona “Retornar/Canviar un article”.  \n      • Escull el producte, indica el motiu i imprimeix l’etiqueta d’enviament prepagada.  \n      • Empaqueta l’article de manera segura i deixa’l al punt de recollida indicat (UPS o USPS, segons la teva zona).  \n      • Un cop el rebem i comprovem l’estat, t’enviarem un correu de confirmació i processarem el reemborsament.\n\n3. Terminis  \n   • Revisió en botiga: immediata.  \n   • Revisió en magatzem (enviament): 2-3 dies un cop arribi; reemborsament en 3-5 dies addicionals.\n\n4. Excepcions comunes  \n   • Productes personalitzats o targetes regal no són reemborsables.  \n   • Si el producte presenta danys per ús incorrecte, podríem derivar-te al nostre servei de reparacions, que sovint és gratuït per a articles comprats a Mountain Peak.\n\nNecessites ajuda addicional o vols canviar l’article per una altra talla/model en lloc de reemborsar-lo? Fes-m’ho saber i t’ho gestiono!"
+    }
+  ],
+  "startTime": 1763568333564,
+  "endTime": 1763568364914
+}

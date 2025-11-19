@@ -1,0 +1,29 @@
+{
+  "goal": "Your goal is to find out if you can return a product you bought 13 days ago.",
+  "modelName": "grok4Fast",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ]
+    },
+    "modelId": "grok-4-fast-reasoning",
+    "config": {
+      "provider": "xai.chat",
+      "baseURL": "https://api.x.ai/v1"
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Store Assistant: Hola! Benvingut al xat en viu de Mountain Peak. Entenc que tens una consulta sobre una devolució. Per poder t ajudar millor, podries confirmar-me el número de comanda o el nom del producte? A més, quina és la raó de la devolució? La nostra política general permet devolucions en un termini de 30 dies, però depèn del cas."
+    },
+    {
+      "from": "store",
+      "message": "Gràcies per la resposta ràpida! El número de comanda és MP-45678, i el producte és una tenda de campanya familiar que vaig comprar fa dues setmanes. La raó de la devolució és que no es desplega correctament; sembla que hi ha un problema amb els pals. És defectuosa, així que crec que hauria d'entrar dins de la política de devolució per articles usats. Què necessito fer per procedir? Puc portar-la a la botiga de Boulder?"
+    }
+  ],
+  "startTime": 1763568333565,
+  "endTime": 1763568356589
+}

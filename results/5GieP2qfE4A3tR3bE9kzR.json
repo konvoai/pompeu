@@ -1,0 +1,24 @@
+{
+  "goal": "Your goal is to find out the return policy",
+  "modelName": "vertexGemini25Flash001",
+  "model": {
+    "specificationVersion": "v2",
+    "modelId": "gemini-2.5-flash-lite",
+    "config": {
+      "provider": "google.vertex.chat",
+      "baseURL": "https://europe-west1-aiplatform.googleapis.com/v1beta1/projects/development-hoola/locations/europe-west1/publishers/google"
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": " live chat.\n\nHello! I'm looking for some information about your return policy. Can you tell me how many days I have to return an item?"
+    },
+    {
+      "from": "store",
+      "message": "Hello! I'd be happy to help you with that.\n\nAt Mountain Peak Outdoor Supply, you have **60 days** from the date of purchase to return an item, as long as you have the original receipt. The gear needs to be in its original condition with all the tags attached.\n\nIf you happen to have used the gear and find it to be defective, you can return it within 14 days of purchase.\n\nDo you have any other questions about our return policy?"
+    }
+  ],
+  "startTime": 1763568333562,
+  "endTime": 1763568349204
+}

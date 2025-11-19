@@ -1,0 +1,24 @@
+{
+  "id": "ZNaQ5Pu7oB0N3IB5PHJCZ",
+  "goal": "Your goal is to try to find out what is the address of the store.",
+  "modelName": "openaiGpt4o",
+  "startTime": 1763568333563,
+  "endTime": 1763568336040,
+  "conversation": [],
+  "quality": {
+    "reasoning": "Empty conversation with no messages exchanged. There is no content to evaluate for efficiency, usefulness, or resolution of any customer need.",
+    "score": 0
+  },
+  "correctness": {
+    "reasoning": "Empty conversation with no information exchanged. There is no content to evaluate for accuracy or relevance.",
+    "score": 0
+  },
+  "grammar": {
+    "reasoning": "Empty conversation with no messages to evaluate for linguistic quality in Catalan or any other language.",
+    "score": 0
+  },
+  "completeness": {
+    "reasoning": "Empty conversation with no customer issue presented or resolved. No questions were asked or answered.",
+    "score": 0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "goal": "Your goal is to try to find out what is the address of the store.",
+  "modelName": "anthropicClaude4Sonnet",
+  "model": {
+    "specificationVersion": "v2",
+    "modelId": "claude-sonnet-4-20250514",
+    "config": {
+      "provider": "anthropic.messages",
+      "baseURL": "https://api.anthropic.com/v1"
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "\n\nHi! Com esteu? Espero que pugueu ajudar-me amb una consulta que tinc."
+    },
+    {
+      "from": "store",
+      "message": "Hola! Molt bé, gràcies per preguntar! 😊\n\nPer descomptat que puc ajudar-te amb la teva consulta sobre Mountain Peak Outdoor Supply. Som aquí per ajudar-te amb qualsevol pregunta sobre els nostres productes, serveis o botigues.\n\nQuè necessites saber? Sigui sobre equipament d'escalada, senderisme, càmping, o qualsevol altra cosa relacionada amb les activitats a l'aire lliure, estic aquí per ajudar-te a trobar exactament el que busques.\n\nDigue'm en què puc ajudar-te! 🏔️"
+    },
+    {
+      "from": "buyer",
+      "message": "Moltes gràcies! M'alegro molt de parlar amb vosaltres. Mira, estic interessat en els vostres productes d'escalada i senderisme, però abans de fer cap compra m'agradaria saber si teniu botiga física on pugui anar a veure els productes en persona.\n\nPodríeu dir-me si teniu alguna botiga física i on es troba exactament? M'agradaria poder passar-hi a veure l'equipament abans de decidir-me per alguna compra important."
+    },
+    {
+      "from": "store",
+      "message": "Perfecte! Sí que tenim botigues físiques i t'animo molt a venir a veure l'equipament en persona - sempre és millor poder tocar i provar els productes abans de comprar, especialment per a equipament d'escalada i senderisme.\n\nTenim 5 botigues físiques, totes situades a Colorado i Utah:\n\n**La nostra botiga principal:**\n- **Boulder, CO** - 2847 Canyon Boulevard, Boulder, CO 80302\n\n**Les altres ubicacions:**\n- **Denver, CO** - 1523 Larimer Street, Denver, CO 80202\n- **Fort Collins, CO** - 891 College Avenue, Fort Collins, CO 80524\n- **Durango, CO** - 456 Main Avenue, Durango, CO 81301\n- **Salt Lake City, UT** - 732 South State Street, Salt Lake City, UT 84111\n\nEls nostres horaris són:\n- **Dilluns a divendres:** 9:00 AM - 8:00 PM\n- **Dissabte:** 8:00 AM - 9:00 PM\n- **Diumenge:** 10:00 AM - 6:00 PM\n\nEl personal de totes les botigues són entusiastes de les activitats a l'aire lliure amb molta experiència, i oferim consultories gratuïtes per ajudar-te a escollir l'equipament perfecte segons els teus plans d'aventura.\n\nQuina zona et queda més a prop? 🏔️"
+    }
+  ],
+  "startTime": 1763568333564,
+  "endTime": 1763568364151
+}

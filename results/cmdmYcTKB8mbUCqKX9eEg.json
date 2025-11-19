@@ -1,0 +1,32 @@
+{
+  "goal": "Your goal is to find out if there is any ongoing discounts",
+  "modelName": "anthropicClaude41Opus",
+  "model": {
+    "specificationVersion": "v2",
+    "modelId": "claude-opus-4-1-20250805",
+    "config": {
+      "provider": "anthropic.messages",
+      "baseURL": "https://api.anthropic.com/v1"
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "\n\nHi there! How can I help you today?"
+    },
+    {
+      "from": "store",
+      "message": "Hi! Actually, I'm here to help you! 😊 \n\nI'm an assistant from Mountain Peak Outdoor Supply, and I'm here to answer any questions you might have about our store, products, or services. \n\nAre you looking for any specific outdoor gear, planning an adventure, or would you like to know more about our locations and services? Whether you're a seasoned mountaineer or just getting started with outdoor activities, I'm here to help you find what you need!\n\nWhat brings you to Mountain Peak today?"
+    },
+    {
+      "from": "buyer",
+      "message": "Hola! M'encantaria saber si teniu alguna oferta o descompte especial en aquests moments? Estic buscant equipament per fer senderisme i m'agradaria aprofitar si hi ha alguna promoció activa."
+    },
+    {
+      "from": "store",
+      "message": "Hola! Encantat de poder ajudar-te! 😊\n\nSí, de fet tenim algunes ofertes excel·lents en equipament de senderisme ara mateix! Deixa'm compartir-te les nostres promocions actuals:\n\n**Ofertes de Temporada:**\n- **20% de descompte** en totes les botes de senderisme de la temporada passada\n- **Compra 2, obté 15% de descompte** en roba tècnica (samarretes, pantalons de muntanya)\n- **30% de descompte** en motxilles seleccionades de les marques Osprey i Deuter\n\n**Oferta Especial \"Trail Ready\":**\nSi compres botes de senderisme + motxilla + bastons de trekking junts, t'oferim un **25% de descompte en el total del paquet**!\n\nTambé et recordo que tenim el nostre programa **Summit Club** - per només $25 a l'any, obtens un 10% de descompte en la majoria de compres, accés anticipat a les rebaixes, i dos lloguers d'equipament gratuïts a l'any.\n\nA més, si trobes un preu millor en alguna altra botiga d'esports a l'aire lliure, igualem el preu!\n\nEn quin tipus d'equipament de senderisme estàs més interessat? T'puc ajudar a trobar les millors ofertes segons el que necessitis! 🥾🎒"
+    }
+  ],
+  "startTime": 1763568333564,
+  "endTime": 1763568370888
+}

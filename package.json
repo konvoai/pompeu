@@ -1,0 +1,30 @@
+{
+  "name": "pompeu",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@ai-sdk/amazon-bedrock": "^3.0.56",
+    "@ai-sdk/anthropic": "^2.0.45",
+    "@ai-sdk/google-vertex": "^3.0.70",
+    "@ai-sdk/openai": "^2.0.68",
+    "@ai-sdk/xai": "^2.0.33",
+    "ai": "^5.0.95",
+    "nanoid": "^5.1.6",
+    "p-limit": "^7.2.0",
+    "zod": "^4.1.12"
+  },
+  "scripts": {
+    "clean": "rm -rf ./judgements/* ./results/* ./analysis/*",
+    "producer": "bun run src/producer.ts",
+    "judger": "bun run src/judger.ts",
+    "analysis": "uv run analysis",
+    "all": "bun run producer && bun run judger && bun run analysis"
+  }
+}

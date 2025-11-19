@@ -1,0 +1,34 @@
+{
+  "goal": "Your goal is to find out the opening times",
+  "modelName": "openaiGpt5Mini",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "gpt-5-mini",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Bon dia! Sóc un client i voldria saber els horaris d'obertura de la botiga: quins són entre setmana, els dissabtes i els diumenges? Tenim també horari especial en festius? Gràcies!"
+    },
+    {
+      "from": "store",
+      "message": "Bon dia! Aquí tens els horaris d'obertura de Mountain Peak:\n\n- Dilluns a divendres: 9:00 – 20:00  \n- Dissabte: 8:00 – 21:00  \n- Diumenge: 10:00 – 18:00\n\nEls horaris especials en dies festius poden variar; et recomanem que consultis la nostra pàgina web o truquis a la botiga abans d’anar-hi per confirmar l’horari aquell dia. Vols que comprovi l’horari d’una de les nostres ubicacions concretes (Boulder, Denver, Fort Collins, Durango o Salt Lake City)?"
+    }
+  ],
+  "startTime": 1763568333563,
+  "endTime": 1763568356474
+}

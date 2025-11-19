@@ -1,0 +1,34 @@
+{
+  "goal": "Your goal is to find out the return policy",
+  "modelName": "gpt51",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "gpt-5.1",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola! 😊\n\nEstic mirant alguns productes de la vostra botiga i volia saber quina és la vostra política de devolucions:\n\n- Quin és el termini per fer una devolució?\n- He de pagar jo les despeses d’enviament de la devolució?\n- Accepteu devolucions tant si he comprat online com a botiga física?\n- Els productes rebaixats o en oferta també es poden tornar?\n- Com s’ha de preparar el paquet (embalatge original, etiquetes, etc.)?\n\nM’ho podríeu explicar, si us plau?"
+    },
+    {
+      "from": "store",
+      "message": "Clar que sí! T’ho detallo tot punt per punt segons la política de devolucions de Mountain Peak:\n\n### 🕒 1. Termini per fer una devolució\n- **Productes nous (sense usar):** es poden tornar **dins dels 60 dies** posteriors a la compra, amb el tiquet o comprovant.\n- **Productes usats defectuosos:** si has fet servir el producte i té algun defecte de fàbrica, el pots tornar **dins dels 14 dies** següents a la compra.\n\n---\n\n### 🚚 2. Despeses d’enviament de la devolució\n- **Comandes online:**\n  - Si la devolució és per **error nostre** (producte equivocat, defectuós, malmès en el transport), **nosaltres assumim les despeses** i t’enviem una etiqueta de retorn prepagada.\n  - Si la devolució és perquè **has canviat d’opinió, talla, color, etc.**, en general:\n    - Pots portar-ho **gratuïtament a qualsevol botiga física**, o\n    - Enviar-ho per missatgeria: en aquest cas, **normalment el cost de l’enviament de retorn el paga el client**.\n- **Compres a botiga física:** la devolució es fa directament a la botiga i, per tant, **no hi ha despeses d’enviament**.\n\n*(Si vols, puc ajudar-te a “simular” una devolució concreta i dir-te què s’aplicaria al teu cas.)*\n\n---\n\n### 🏬 3. Devolucions online vs. botiga física\n- **Compres online:**  \n  - Pots tornar-ho **per correu** o **a qualsevol de les nostres botigues físiques** (Boulder, Denver, Fort Collins, Durango, Salt Lake City).\n- **Compres en botiga física:**  \n  - S’han de tornar **en una botiga física**.  \n  - En general cal anar a la **mateixa botiga** o a una altra de la cadena amb el tiquet.  \n\nEn tots els casos, és important portar o adjuntar el **justificant de compra** (tiquet, factura online, o correu de confirmació).\n\n---\n\n### 💸 4. Productes rebaixats o en oferta\n- **Productes en oferta / rebaixes normals:**  \n  - Sí, **també es poden tornar**, respectant els terminis generals (60 dies sense usar, 14 dies si hi ha defecte).\n- **Ofertes especials / liquidacions molt fortes (“final sale”, “no returns”):**  \n  - Alguns articles molt rebaixats poden estar marcats com a **“sense devolució”**.  \n  - Si és el cas, apareix indicat a la fitxa del producte o al tiquet.\n\nSi em dius quin producte tens al cap, puc “mirar” si té alguna condició especial de devolució.\n\n---\n\n### 📦 5. Com preparar el paquet per a la devolució\nPerquè la devolució s’accepti sense problemes, recomanem:\n\n- **Embalatge i estat del producte**\n  - Producte **net, sense usar i en perfecte estat**.\n  - **Embalatge original** si és possible (caixa de botes, funda de sac de dormir, bossa de la tenda, etc.).\n  - **Etiquetes i adhesius originals** encara posats al producte, si es tracta de roba o equip nou.\n- **Documentació**\n  - Inclou-hi una **còpia de la factura/tiquet** o el correu de confirmació de la compra.\n  - Si és una devolució per defecte, pots afegir una **nota breu** explicant el problema (això ajuda molt al nostre equip tècnic).\n- **Embalatge per a l’enviament**\n  - Utilitza una **caixa resistent** o el mateix embalatge en què ho vas rebre, ben tancat.\n  - Si fas servir la nostra etiqueta de retorn prepagada (en casos que pertoqui), enganxa-la a l’exterior i tapa o retira altres etiquetes antigues d’enviament.\n\n---\n\nSi em dius:\n- si la teva compra ha estat **online o en botiga**,  \n- i **quin producte** és (per exemple, botes, motxilla, tenda…),\n\net puc concretar exactament què has de fer i si tindries alguna excepció o condició especial."
+    }
+  ],
+  "startTime": 1763568333564,
+  "endTime": 1763568365903
+}

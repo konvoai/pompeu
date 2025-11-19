@@ -1,0 +1,34 @@
+{
+  "goal": "Your goal is to try to find out what is the address of the store.",
+  "modelName": "openaiGpt5Mini",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "gpt-5-mini",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola, bon dia! Tinc un producte que voldria tornar i prefereixo fer la devolució en persona. Em podríeu facilitar l'adreça física de la botiga Mountain Peak? També m'agradaria saber els horaris d'obertura. Gràcies!"
+    },
+    {
+      "from": "store",
+      "message": "Hola — bon dia! Aquí tens les adreces físiques de les nostres botigues Mountain Peak i els horaris d'obertura:\n\nBotigues:\n- Flagship — Boulder, CO  \n  2847 Canyon Boulevard, Boulder, CO 80302\n\n- Denver  \n  1523 Larimer Street, Denver, CO 80202\n\n- Fort Collins  \n  891 College Avenue, Fort Collins, CO 80524\n\n- Durango Outpost  \n  456 Main Avenue, Durango, CO 81301\n\n- Salt Lake City, UT  \n  732 South State Street, Salt Lake City, UT 84111\n\nHoraris:\n- Dilluns a divendres: 9:00 AM – 8:00 PM  \n- Dissabte: 8:00 AM – 9:00 PM  \n- Diumenge: 10:00 AM – 6:00 PM\n\nRecorda que les hores de festa poden variar; és recomanable trucar abans per confirmar i assegurar-te que tenen el producte a la botiga. Sobre la devolució: acceptem retorns en 60 dies amb rebut (articles no usats i amb etiquetes). Els articles usats només es tornen dins de 14 dies si són defectuosos.\n\nVols que et digui quina botiga et convé segons la teva localització o que comprovi si el producte està disponible per recollir?"
+    }
+  ],
+  "startTime": 1763568333563,
+  "endTime": 1763568359402
+}

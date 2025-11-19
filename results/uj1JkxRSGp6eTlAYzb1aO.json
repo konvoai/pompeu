@@ -1,0 +1,34 @@
+{
+  "goal": "Your goal is to find out the return policy",
+  "modelName": "openaiO3",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "o3-2025-04-16",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola! Voldria saber quina és la vostra política de devolucions, si us plau."
+    },
+    {
+      "from": "store",
+      "message": "Hola! A Mountain Peak Outdoor Supply intentem que la política de devolucions sigui tan senzilla com sigui possible:\n\n1. Termini estàndard  \n   • Pots retornar qualsevol producte dins dels 60 dies posteriors a la compra.  \n   • Cal presentar el tiquet o comprovant.  \n   • L’article ha d’estar sense usar, amb les etiquetes originals i l’embalatge en bon estat.\n\n2. Material usat o defectuós  \n   • Si has fet servir l’equip i detectes un defecte de fabricació, tens 14 dies per portar-lo i l’avaluarem.  \n   • Si es confirma el defecte, t’oferirem reparació, substitució o reemborsament complet.\n\n3. Mètode de reemborsament  \n   • S’efectua al mateix mètode de pagament original.  \n   • Si tens un val regal, el reemborsament es fa en crèdit de botiga.\n\n4. Devolucions en línia  \n   • Si vas comprar per la web, pots retornar l’article a qualsevol botiga o enviar-lo per correu.  \n   • Els socis Summit Club gaudeixen d’enviament de devolució gratuït; la resta de clients poden descarregar una etiqueta amb tarifa reduïda.\n\n5. Exclusions puntuals  \n   • Productes d’higiene (ex.: filtres d’aigua ja usats) o articles personalitzats no es poden tornar llevat que siguin defectuosos.  \n   • Durant períodes de promoció especial, el termini pot ampliar-se (es detalla al tiquet).\n\n6. Com iniciar la devolució  \n   • Porta l’article i el rebut a qualsevol de les nostres botigues (Boulder, Denver, Fort Collins, Durango o Salt Lake City).  \n   • O bé, inicia el procés al web a l’apartat “El meu compte > Devolucions”.\n\nSi tens qualsevol altra pregunta o necessites ajuda amb un cas concret, només cal que ens ho diguis!"
+    }
+  ],
+  "startTime": 1763568333564,
+  "endTime": 1763568351872
+}

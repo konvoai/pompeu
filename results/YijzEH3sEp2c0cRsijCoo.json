@@ -1,0 +1,20 @@
+{
+  "goal": "Your goal is to find out the return policy",
+  "modelName": "anthropicClaude45Sonnet",
+  "model": {
+    "specificationVersion": "v2",
+    "modelId": "claude-sonnet-4-5-20250929",
+    "config": {
+      "provider": "anthropic.messages",
+      "baseURL": "https://api.anthropic.com/v1"
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": ""
+    }
+  ],
+  "startTime": 1763568333565,
+  "endTime": 1763568337711
+}

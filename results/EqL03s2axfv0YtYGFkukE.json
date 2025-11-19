@@ -1,0 +1,28 @@
+{
+  "goal": "Your goal is to find out if there is any ongoing discounts",
+  "modelName": "vertexGemini25Flash001",
+  "model": {
+    "specificationVersion": "v2",
+    "modelId": "gemini-2.5-flash-lite",
+    "config": {
+      "provider": "google.vertex.chat",
+      "baseURL": "https://europe-west1-aiplatform.googleapis.com/v1beta1/projects/development-hoola/locations/europe-west1/publishers/google"
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": " support.\n\nHi! I'm not sure if you can help me, but I wanted to know if there are any ongoing sales or discounts on your online store. I'm looking to buy some new hiking gear. Thanks!"
+    },
+    {
+      "from": "store",
+      "message": "Hello there! Absolutely, I can help you with that. We always have exciting offers running on our online store!\n\nRight now, we have a **\"Spring into Adventure\"** sale on select hiking boots and backpacks, with discounts up to 20% off. Additionally, all orders over $75 receive free shipping.\n\nIf you're interested in becoming a member of our **Summit Club**, that's a great way to save money year-round. It costs $25 per year and gives you 10% off most purchases, plus other perks like free gear rentals twice a year!\n\nDo you have any specific types of hiking gear in mind? I can tell you if they are part of any current promotions!"
+    },
+    {
+      "from": "buyer",
+      "message": "Perfect! Thanks for the info. I'm particularly interested in waterproof jackets. Are any of those on sale right now?"
+    }
+  ],
+  "startTime": 1763568333562,
+  "endTime": 1763568369428
+}

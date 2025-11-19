@@ -1,0 +1,2 @@
+[console_scripts]
+analysis = pompeu_fabra.analysis:main

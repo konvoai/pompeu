@@ -1,0 +1,29 @@
+{
+  "goal": "Your goal is to find out if there is any ongoing discounts",
+  "modelName": "grok4Fast",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ]
+    },
+    "modelId": "grok-4-fast-reasoning",
+    "config": {
+      "provider": "xai.chat",
+      "baseURL": "https://api.x.ai/v1"
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hello! Welcome to Mountain Peak's live chat. I'm happy to help you with your mountain gear needs. Yes, we're currently running a 20% discount on all hiking boots and backpacks for our summer sale—valid until the end of the month. Is there a specific product you're looking at, or can I recommend something based on your adventure plans?"
+    },
+    {
+      "from": "store",
+      "message": "Hi there! Thanks for the warm welcome— that 20% discount sounds awesome. I'm planning a multi-day backpacking trip in the Rockies this summer, so I'm looking for some sturdy hiking boots and a good backpack. Any recommendations for someone who's intermediate level? Budget around $200-300 for each."
+    }
+  ],
+  "startTime": 1763568333565,
+  "endTime": 1763568365118
+}

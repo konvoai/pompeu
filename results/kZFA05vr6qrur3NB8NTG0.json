@@ -1,0 +1,34 @@
+{
+  "goal": "Your goal is to find out if they deliver to the following address: 2847 Canyon Boulevard, Boulder, CO 80302",
+  "modelName": "openaiGpt5",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "gpt-5",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Bon dia! Feu enviaments a aquesta adreça?\n\n2847 Canyon Boulevard\nBoulder, CO 80302\n\nSi us cal, us puc dir si és residencial o comercial. També m’interessa saber opcions de lliurament i terminis."
+    },
+    {
+      "from": "store",
+      "message": "Bon dia! Sí, fem enviaments a Boulder i, de fet, l’adreça que heu indicat és la nostra botiga insígnia de Boulder:\n2847 Canyon Boulevard, Boulder, CO 80302.\n\nOpcions d’enviament i lliurament\n- Recollida a la botiga (gratuïta)\n  - Mateix dia si l’article és en estoc a Boulder (us avisem per SMS/email).\n  - Si no és en estoc, “Ship-to-Store” des del magatzem: 1–2 dies laborables, gratuït.\n  - Horari botiga: Dl.-Dv. 9–20 h, Ds. 8–21 h, Dg. 10–18 h.\n\n- Enviament estàndard (UPS/USPS)\n  - 3–5 dies laborables; a Boulder sovint 1–3 dies.\n  - Gratuït en comandes > 75 $; 6,95 $ si és inferior.\n\n- Enviament 2 dies\n  - 2 dies laborables si es fa la comanda abans de les 13:00 (MST).\n  - 19,95 $.\n\n- Enviament urgent (1 dia)\n  - L’endemà laborable; opcions de dissabtes amb suplement.\n  - 34,95 $.\n\n- Lliurament local el mateix dia (Boulder i voltants)\n  - Comandes abans de les 14:00; franges 12–15 h, 15–18 h o 18–21 h.\n  - 8,99 $ (gratuït > 150 $).\n\nDetalls útils\n- Residencial vs. comercial: ens ajuda a triar el transportista i l’horari de lliurament (comercial sol rebre abans de les 17 h; residencial, fins al vespre).\n- Signatura: requerida per comandes > 500 $ (es pot autoritzar “sense signatura” sota responsabilitat).\n- Articles amb gas (cartutxos) s’envien només per via terrestre.\n\nPer confirmar: voleu que ho enviem a aquesta adreça perquè ho recolliu a la botiga, o és per a una entrega a domicili/oficina? Si ens dieu si és residencial o comercial i per quan ho necessiteu, us recomano l’opció més ràpida i econòmica."
+    }
+  ],
+  "startTime": 1763568333562,
+  "endTime": 1763568416232
+}

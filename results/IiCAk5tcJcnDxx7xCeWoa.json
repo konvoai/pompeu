@@ -1,0 +1,34 @@
+{
+  "goal": "Your goal is to find out the opening times",
+  "modelName": "openaiO3",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "o3-2025-04-16",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola! Bon dia. Em podríeu indicar, si us plau, els vostres horaris d’obertura?"
+    },
+    {
+      "from": "store",
+      "message": "Bon dia! Els nostres horaris generals d’obertura són:\n\n• De dilluns a divendres: 9.00 – 20.00  \n• Dissabte: 8.00 – 21.00  \n• Diumenge: 10.00 – 18.00  \n\n(Els horaris especials de festius poden variar; us recomanem consultar la web o trucar a la botiga abans de venir.)\n\nSi necessiteu qualsevol altra informació, aquí estic!"
+    }
+  ],
+  "startTime": 1763568333564,
+  "endTime": 1763568343028
+}

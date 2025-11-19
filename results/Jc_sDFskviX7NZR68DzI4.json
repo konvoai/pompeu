@@ -1,0 +1,32 @@
+{
+  "goal": "Your goal is to find out if there is any ongoing discounts",
+  "modelName": "anthropicClaude45Sonnet",
+  "model": {
+    "specificationVersion": "v2",
+    "modelId": "claude-sonnet-4-5-20250929",
+    "config": {
+      "provider": "anthropic.messages",
+      "baseURL": "https://api.anthropic.com/v1"
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "\n<div class=\"chat-message assistant-message\">\n  <div class=\"bubble\">\n    Hola! Benvingut/da a Mountain Peak! Com et puc ajudar avui?\n  </div>\n</div>"
+    },
+    {
+      "from": "store",
+      "message": "<div class=\"chat-message user-message\">\n  <div class=\"bubble\">\n    Hola! Estic planejant una excursió de cap de setmana als Pirineus i necessito equipament. Quines tendes d'acampada teniu per a 2 persones?\n  </div>\n</div>\n\n<div class=\"chat-message assistant-message\">\n  <div class=\"bubble\">\n    Perfecte! Quin bon pla una excursió als Pirineus! 🏔️\n    \n    Tenim diverses opcions de tendes per a 2 persones depenent del tipus d'excursió que facis:\n    \n    **Tendes lleugeres per a trekking:**\n    - Mountain Peak Alpine 2 - Només 1.2kg, ideal si has de portar-ho a l'esquena. Preu: $289\n    - Summit Ultralight 2P - Superlleugera (950g), perfecta per a senderisme llarg. Preu: $349\n    \n    **Tendes versàtils 3 estacions:**\n    - Trailblazer 2 Plus - Molt popular, bona relació qualitat-preu, espai interior còmode. Preu: $199\n    - Peak Comfort 2P - Més espaiosa, amb vestíbul gran per a motxilles. Preu: $245\n    \n    **Tendes 4 estacions (si espereu mal temps):**\n    - Expedition Dome 2 - Resistent a vents forts i neu. Preu: $425\n    \n    Quants dies estareu fora? I haureu de caminar molt amb la tenda a l'esquena o anireu amb cotxe fins al camping?\n  </div>\n</div>"
+    },
+    {
+      "from": "buyer",
+      "message": "<div class=\"chat-message user-message\">\n  <div class=\"bubble\">\n    Ostres, quina varietat! Semblen molt bones opcions. Abans de decidir-me, volia preguntar-te: teniu algun descompte o promoció activa ara mateix? M'agradaria aprofitar si hi ha alguna oferta especial!\n  </div>\n</div>"
+    },
+    {
+      "from": "store",
+      "message": "<div class=\"chat-message assistant-message\">\n  <div class=\"bubble\">\n    Ah, molt bona pregunta! Sí que tenim algunes ofertes interessants ara mateix! 😊\n    \n    **Promocions actives:**\n    \n    🎯 **Descompte de primavera** - 15% de descompte en tendes seleccionades de 2 i 3 persones (inclou la Trailblazer 2 Plus i la Peak Comfort 2P que t'he mencionat!)\n    \n    🎒 **Pack complet d'acampada** - Si compres tenda + sac de dormir + matalaset, 20% de descompte en el conjunt\n    \n    💳 **Summit Club** - Si et fas soci del nostre programa de fidelització (25$/any), obtens un 10% addicional en quasi totes les compres, a més d'altres avantatges com lloguer gratuït d'equipament dues vegades l'any\n    \n    📍 **Igualem preus** - Si trobes el mateix producte més barat en una altra botiga, t'igualem el preu!\n    \n    A més, si necessites més equipament per a l'excursió (sacs de dormir, motxilles, fogons...), et puc ajudar a preparar un pack complet i així aprofitar millor els descomptes!\n    \n    Què et sembla? Vols que calculem com quedaria el preu final amb els descomptes?\n  </div>\n</div>"
+    }
+  ],
+  "startTime": 1763568333564,
+  "endTime": 1763568371943
+}

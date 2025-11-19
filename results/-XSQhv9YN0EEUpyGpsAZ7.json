@@ -1,0 +1,29 @@
+{
+  "goal": "Your goal is to find out the opening times",
+  "modelName": "grok4Fast",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ]
+    },
+    "modelId": "grok-4-fast-reasoning",
+    "config": {
+      "provider": "xai.chat",
+      "baseURL": "https://api.x.ai/v1"
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Assistant: Hola! Benvingut a Mountain Peak. La botiga està oberta de dilluns a divendres de 9:00 a 19:00, i els caps de setmana de 10:00 a 18:00. Hi ha algun producte concret d'escalada que et recomanem?"
+    },
+    {
+      "from": "store",
+      "message": "Sí, gràcies per preguntar! A Mountain Peak, tenim una gran selecció d'equip d'escalada de qualitat premium. Si ets principiant, et recomano el nostre harness Black Diamond Momentum, que és còmode i segur per a qualsevol nivell, o les sabates d'escalada La Sportiva Tarantulace per a una bona adherència a la roca. Per als més experimentats, les cordes Mammut 9.8 són ideals per a escalades multi-pitch. Vine a la botiga o visita el nostre lloc web per veure'n més detalls i preus. Què et sembla, busques alguna cosa específica com cordes, casc o material per a bouldering? 😊"
+    }
+  ],
+  "startTime": 1763568333566,
+  "endTime": 1763568347961
+}

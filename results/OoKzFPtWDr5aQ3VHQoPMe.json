@@ -1,0 +1,32 @@
+{
+  "goal": "Your goal is to try to find out what is the address of the store.",
+  "modelName": "vertexGemini25Flash001",
+  "model": {
+    "specificationVersion": "v2",
+    "modelId": "gemini-2.5-flash-lite",
+    "config": {
+      "provider": "google.vertex.chat",
+      "baseURL": "https://europe-west1-aiplatform.googleapis.com/v1beta1/projects/development-hoola/locations/europe-west1/publishers/google"
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": " live chat.\n\nHola! Tinc una pregunta sobre la vostra botiga."
+    },
+    {
+      "from": "store",
+      "message": "Hola! Clar que sí, estic aquí per ajudar-te amb qualsevol pregunta que tinguis sobre Mountain Peak Outdoor Supply. En què et puc ajudar avui?"
+    },
+    {
+      "from": "buyer",
+      "message": "Estic buscant comprar algun equip d'escalada i m'agradaria saber on es troba la vostra botiga física. Teniu una adreça que em puguis donar?"
+    },
+    {
+      "from": "store",
+      "message": "Per descomptat! Tenim diverses botigues físiques on pots trobar el nostre equip d'escalada. La nostra botiga insígnia es troba a **Boulder, Colorado**, a **2847 Canyon Boulevard, Boulder, CO 80302**.\n\nTambé tenim altres ubicacions a Colorado:\n*   **Denver:** 1523 Larimer Street, Denver, CO 80202\n*   **Fort Collins:** 891 College Avenue, Fort Collins, CO 80524\n*   **Durango:** 456 Main Avenue, Durango, CO 81301\n\nI també una botiga a Utah:\n*   **Salt Lake City, UT:** 732 South State Street, Salt Lake City, UT 84111\n\nA totes aquestes botigues podràs trobar el nostre ampli assortiment d'equipament d'escalada, com ara cordes, arnesos, mosquetons, sabatilles d'escalada, magnesi, casc i dispositius d'assegurança. Si necessites ajuda per triar el millor equipament per a les teves necessitats, el nostre personal expert estarà encantat d'assessorar-te.\n\nTens alguna altra pregunta sobre les nostres botigues o l'equipament d'escalada?"
+    }
+  ],
+  "startTime": 1763568333560,
+  "endTime": 1763568378027
+}

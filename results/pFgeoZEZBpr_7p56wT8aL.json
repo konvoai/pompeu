@@ -1,0 +1,34 @@
+{
+  "goal": "Your goal is to find out if they deliver to the following address: 2847 Canyon Boulevard, Boulder, CO 80302",
+  "modelName": "gpt51",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "gpt-5.1",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola! 😊\n\nEstic mirant de fer una comanda a la vostra botiga i volia confirmar una cosa abans de seguir: feu entregues a aquesta adreça?\n\n2847 Canyon Boulevard  \nBoulder, CO 80302  \n\nEm podeu dir si hi envieu comandes, si us plau?"
+    },
+    {
+      "from": "store",
+      "message": "Hola! 😊\n\nSí, cap problema: fem entregues a l’adreça\n\n2847 Canyon Boulevard  \nBoulder, CO 80302\n\nDe fet, és la mateixa adreça de la nostra botiga insígnia de Boulder, així que també tens l’opció de:\n\n- Enviament a domicili a aquesta adreça, **o**\n- Fer **compra online amb recollida a la botiga** (“in-store pickup”) el mateix dia, si el producte està en estoc.\n\nSi em dius què vols comprar, et puc confirmar si està disponible per enviar o recollir a Boulder."
+    }
+  ],
+  "startTime": 1763568333564,
+  "endTime": 1763568341731
+}

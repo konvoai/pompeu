@@ -1,0 +1,34 @@
+{
+  "goal": "Your goal is to find out if you can return a product you bought 13 days ago.",
+  "modelName": "openaiGpt5",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "gpt-5",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola! Vaig comprar un producte fa 13 dies i m’agradaria saber si el puc retornar. Quina és la vostra política de devolucions (termini, estat del producte, si hi ha algun cost de retorn)? Si us cal, us puc facilitar el número de comanda."
+    },
+    {
+      "from": "store",
+      "message": "Hola! Sí, en principi el pots retornar.\n\nLa nostra política de devolucions:\n- Termini:\n  - Producte nou (sense usar): fins a 60 dies amb rebut/confirmació de compra.\n  - Producte usat: es pot retornar dins de 14 dies només si és defectuós.\n- Estat del producte:\n  - Sense usar, amb etiquetes i embalatge original per a devolucions normals.\n  - Si és defectuós, indica’ns el problema; el revisarem i ho gestionarem com a garantia/defecte.\n- Cost de la devolució:\n  - A botiga: gratuïta.\n  - Per correu: oferim etiqueta prepagada; descomptem 7,95 $ del reemborsament, excepte si és per defecte o error nostre (en aquest cas, és gratuïta).\n\nReemborsament: al mateix mètode de pagament, normalment en 3–5 dies laborables després de rebre i processar el producte.\n\nCom procedir:\n- Porta l’article i el rebut a qualsevol de les nostres botigues, o\n- Demana’m que iniciï la devolució en línia i t’envio l’etiqueta.\n\nSi vols, comparteix-me el número de comanda i confirma si l’article està sense usar o si presenta algun defecte, i t’ho gestiono ara mateix. Amb 13 dies des de la compra, estàs dins del termini tant per a devolució (si és nou) com per a revisió per defecte (si s’ha utilitzat i falla)."
+    }
+  ],
+  "startTime": 1763568333562,
+  "endTime": 1763568394846
+}

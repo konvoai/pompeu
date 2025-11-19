@@ -1,0 +1,44 @@
+{
+  "top_model": "openaiO3",
+  "top_model_overall_avg": 0.9541666666666667,
+  "judgement_counts": {
+    "openaiO3": 6,
+    "openaiGpt5": 6,
+    "gpt51": 6,
+    "openaiGpt5Mini": 6,
+    "openaiGpt4oMini": 6,
+    "grok4NotSoFast": 6,
+    "grok4Fastest": 6,
+    "anthropicClaude4Sonnet": 6,
+    "anthropicClaude45Haiku": 6,
+    "anthropicClaude41Opus": 6,
+    "anthropicClaude45Sonnet": 6,
+    "openaiGpt5Nano": 6,
+    "vertexGemini25Flash001": 6,
+    "grok4Fast": 6,
+    "gptOss120b": 6,
+    "openaiGpt4o": 6
+  },
+  "metric_leaders": {
+    "quality": {
+      "model": "openaiO3",
+      "score": 0.9616666666666666
+    },
+    "correctness": {
+      "model": "openaiO3",
+      "score": 0.9916666666666667
+    },
+    "grammar": {
+      "model": "openaiO3",
+      "score": 0.9966666666666667
+    },
+    "completeness": {
+      "model": "anthropicClaude45Haiku",
+      "score": 0.895
+    }
+  },
+  "latency_leader": {
+    "model": "openaiGpt4o",
+    "seconds_per_message": 2.9486666666666665
+  }
+}

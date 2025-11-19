@@ -1,0 +1,34 @@
+{
+  "goal": "Your goal is to try to find out what is the address of the store.",
+  "modelName": "openaiO3",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "o3-2025-04-16",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola! M’agradaria saber quina és l’adreça física de la vostra botiga, si us plau."
+    },
+    {
+      "from": "store",
+      "message": "Hola! Tenim diverses botigues físiques. Aquí tens les adreces:\n\n• Flagship Store – Boulder, CO  \n  2847 Canyon Boulevard, Boulder, CO 80302 (EUA)\n\n• Denver, CO  \n  1523 Larimer Street, Denver, CO 80202\n\n• Fort Collins, CO  \n  891 College Avenue, Fort Collins, CO 80524\n\n• Durango, CO  \n  456 Main Avenue, Durango, CO 81301\n\n• Salt Lake City, UT  \n  732 South State Street, Salt Lake City, UT 84111\n\nSi necessites més informació o vols saber quins serveis ofereix cadascuna, només cal que m’ho diguis!"
+    }
+  ],
+  "startTime": 1763568333564,
+  "endTime": 1763568344195
+}

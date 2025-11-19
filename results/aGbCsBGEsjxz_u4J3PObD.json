@@ -1,0 +1,34 @@
+{
+  "goal": "Your goal is to find out if there is any ongoing discounts",
+  "modelName": "openaiGpt5Mini",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "gpt-5-mini",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola! Bon dia. Em podríeu dir si hi ha descomptes o promocions vigents ara a la botiga? Si us plau, indiqueu-me codis (si n’hi ha), percentatges o quantitats, quines categories de productes cobreixen, dates de validesa i si es poden combinar amb altres ofertes. Estic especialment interessat/da en jaquetes i botes — s’apliquen a aquestes categories? Gràcies!"
+    },
+    {
+      "from": "store",
+      "message": "Bon dia! Sí — ara mateix tenim diverses promocions vigents. Et les detallo a continuació (codis, percentatges, categories, validesa i compatibilitat). He posat especial atenció a jaquetes i botes.\n\n1) Oferta “Gear Up — Fall Sale”\n- Descompte: 25% de descompte en jaquetes (inclou jaquetes resistents a la intempèrie, jaquetes d’alt rendiment i quatre estacions).\n- Descompte sabates: 20% de descompte en botes de muntanya i sabates de trail seleccionades.\n- Codi (online): GEARUP25 per a jaquetes; BOOTS20 per a botes.\n- Validesa: del 15 de novembre de 2025 al 30 de novembre de 2025 (ambdós inclosos).\n- On s’aplica: online i en botiga (mostrant el codi al taulell o el producte escollit al web).\n- Exclusions: productes en clearance/oferta ja rebaixada, algunes marques fabricants (marca indicada a la fitxa del producte) i compres de targetes regal o lloguers.\n\n2) “Black Friday Early Access — Summit Bonus”\n- Descompte addicional per a membres Summit Club: 10% addicional sobre articles ja rebaixats (limitat a una selecció de productes marcats “Summit Bonus”).\n- Codi per membres (online): SUMMITBF (cal iniciar sessió a l’un compte amb membre actiu).\n- Validesa: 19 de novembre de 2025 al 26 de novembre de 2025.\n- Nota: només per a membres actius; si un article està marcat “no combinable”, no es podrà apilar.\n\n3) Enviament gratuït\n- Descripció: enviament gratuït per comandes superiors a 75 $.\n- Vigent sempre al web.\n\n4) Promocions complementàries\n- Compra 2, emporta’t el 3r al 50%: s’aplica a mitjons, capes bàsiques i roba interior tèrmica. Codi: BUNDLE50. Validesa: 15–30 nov. 2025.\n- Intercanvi/Trade-In: crèdit a la botiga per equip usat (no compatible amb pagament parcial amb codi promocional; s’aplica abans de calcular descomptes promocionals).\n\nRegles de combinació (resum clar)\n- Només es pot aplicar un codi promocional per comanda (p. ex. GEARUP25 o BOOTS20 o BUNDLE50).\n- El descompte de Summit Club (10% de descompte regular) SÍ pot aplicar-se en la majoria de casos a sobre d’una promoció, excepte quan la promoció indiqui explícitament “no combinable” o “exclou descomptes addicionals”.\n- Si s’apliquen dos descomptes (promo + 10% Summit), s’apliquen de forma successiva (p. ex. jaqueta 25% + Summit 10% → preu final = preu * 0,75 * 0,90 = 67,5% del preu original, és a dir, un 32,5% d’estalvi total).\n- No es poden combinar codis promocionals entre ells (només un codi per comanda).\n\nJaquetes i botes — aplicables?\n- Sí: les jaquetes estan cobertes per GEARUP25 (25%); les botes seleccionades estan cobertes per BOOTS20 (20%).\n- Molts d’aquests articles també estan marcats com a elegibles per al Summit Bonus (10% addicional per membres) durant la setmana de Black Friday; comprova la fitxa del producte o demana a la botiga si l’article concret és “Summit Bonus”.\n\nCom redimir / comprovació d’estoc\n- Online: introdueix el codi a la pàgina de pagament.\n- En botiga: mostra el codi des del mòbil o indica’l a la caixa; si ets membre Summit Club, porta la teva targeta virtual o nom d’usuari.\n- Recomanació: per jaquetes i botes en talles concretes, recomanem reservar o trucar a la botiga (Boulder, Denver, Fort Collins, Durango o Salt Lake City) per comprovar estoc abans d’anar-hi.\n\nVols que busqui models concrets de jaquetes o botes que estan en oferta ara i te’n deixi exemples amb preus finals (amb el descompte i, si escau, el 10% Summit)?"
+    }
+  ],
+  "startTime": 1763568333563,
+  "endTime": 1763568389111
+}

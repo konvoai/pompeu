@@ -1,0 +1,24 @@
+{
+  "goal": "Your goal is to find out the opening times",
+  "modelName": "vertexGemini25Flash001",
+  "model": {
+    "specificationVersion": "v2",
+    "modelId": "gemini-2.5-flash-lite",
+    "config": {
+      "provider": "google.vertex.chat",
+      "baseURL": "https://europe-west1-aiplatform.googleapis.com/v1beta1/projects/development-hoola/locations/europe-west1/publishers/google"
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "\n\nHello! I would like to know your opening times, please."
+    },
+    {
+      "from": "store",
+      "message": "Hello there! Mountain Peak Outdoor Supply is open during the following hours:\n\n**Monday - Friday:** 9:00 AM - 8:00 PM\n**Saturday:** 8:00 AM - 9:00 PM\n**Sunday:** 10:00 AM - 6:00 PM\n\nPlease note that holiday hours may vary, so it's always a good idea to check our website or give us a call ahead of time if you're planning a visit on a holiday."
+    }
+  ],
+  "startTime": 1763568333562,
+  "endTime": 1763568346848
+}

@@ -1,0 +1,29 @@
+{
+  "goal": "Your goal is to find out the opening times",
+  "modelName": "grok4NotSoFast",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ]
+    },
+    "modelId": "grok-4",
+    "config": {
+      "provider": "xai.chat",
+      "baseURL": "https://api.x.ai/v1"
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Bon dia! Estic interessat en fer una compra al vostre lloc web de Mountain Peak. Podries dir-me els horaris d'obertura de la botiga?"
+    },
+    {
+      "from": "store",
+      "message": "Bon dia! Moltes gràcies per l'interès en fer una compra al nostre lloc web de Mountain Peak Outdoor Supply. Si estàs pensant en recollir la comanda en una de les nostres botigues físiques, aquí tens els horaris d'obertura estàndards per a totes les nostres localitzacions (Boulder, Denver, Fort Collins, Durango i Salt Lake City):\n\n- **De dilluns a divendres:** De 9:00 a 20:00 h\n- **Dissabte:** De 8:00 a 21:00 h\n- **Diumenge:** De 10:00 a 18:00 h\n\nTingues en compte que els horaris poden variar en dies festius, així que et recomano comprovar el nostre lloc web o trucar a la botiga específica per confirmar. Si necessites ajuda amb la compra en línia, com ara recomanacions de productes o detalls sobre l'enviament gratuït per comandes superiors a 75 $, digue'm! Què estàs buscant exactament? 😊"
+    }
+  ],
+  "startTime": 1763568333566,
+  "endTime": 1763568377829
+}

@@ -1,0 +1,31 @@
+{
+  "goal": "Your goal is to try to find out what is the address of the store.",
+  "modelName": "gptOss120b",
+  "model": {
+    "modelId": "openai.gpt-oss-120b-1:0",
+    "config": {},
+    "specificationVersion": "v2",
+    "provider": "amazon-bedrock",
+    "supportedUrls": {}
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Bon dia! Em pots dir quin és l'adreça de la vostra botiga? Gràcies."
+    },
+    {
+      "from": "store",
+      "message": "Bon dia!  \n  \nAquí tens les adreces de les nostres botigues Mountain Peak Outdoor Supply:\n\n| Botiga | Direcció | Ciutat |\n|--------|----------|--------|\n| **Botiga principal** | 2847 Canyon Boulevard | Boulder, CO 80302 |\n| **Ubicació a Denver** | 1523 Larimer Street | Denver, CO 80202 |\n| **Fort Collins** | 891 College Avenue | Fort Collins, CO 80524 |\n| **Durango Outpost** | 456 Main Avenue | Durango, CO 81301 |\n| **Salt Lake City, UT** | 732 South State Street | Salt Lake City, UT 84111 |\n\nSi necessites horaris, informació sobre lloguers o qualsevol altra cosa, només cal que m’ho diguis! 🙂"
+    },
+    {
+      "from": "buyer",
+      "message": "Entenc que teniu diverses botigues, però estic buscant la ubicació de la vostra botiga principal. Em podríeu confirmar quin és l'adreça exacta de la botiga central? Gràcies!"
+    },
+    {
+      "from": "store",
+      "message": "Clar! La nostra botiga principal és la **Flagship Store a Boulder, Colorado**. L’adreça exacta és:\n\n**2847 Canyon Boulevard, Boulder, CO 80302, EUA**\n\nSi necessites informació sobre horaris, serveis o qualsevol altra cosa, només cal que m’ho facis saber. 🙂"
+    }
+  ],
+  "startTime": 1763568333565,
+  "endTime": 1763568340406
+}

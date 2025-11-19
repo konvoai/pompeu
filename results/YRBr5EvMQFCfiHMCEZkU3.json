@@ -1,0 +1,34 @@
+{
+  "goal": "Your goal is to find out if they deliver to the following address: 2847 Canyon Boulevard, Boulder, CO 80302",
+  "modelName": "openaiGpt5Mini",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "gpt-5-mini",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola! Volia saber si feu entregues a l'adreça següent: 2847 Canyon Boulevard, Boulder, CO 80302. Gràcies!"
+    },
+    {
+      "from": "store",
+      "message": "Hola! Sí — 2847 Canyon Boulevard, Boulder, CO 80302 és la nostra botiga principal.\n\nDepèn del que vulguis fer:\n\n- Si et refereixes a rebre una comanda enviada a aquesta adreça: fem enviaments nacionals i l'enviament és gratuït en comandes superiors a $75 quan compres online. Pots posar aquesta adreça com a destinació d'enviament al fer la comanda.\n- Si prefereixes recollir la comanda a la botiga (Pick-up): pots fer la comanda online i triar “recollida en botiga” per tenir-la el mateix dia (si l'article està en estoc).\n- Si vols llogar equip o reservar alguna cosa per recollir a la botiga, el lloguer està disponible a totes les localitzacions i recomanem reservar amb 24 hores d'antelació.\n\nL'horari de la botiga de Boulder és: Dilluns–Divendres 9:00–20:00, Dissabte 8:00–21:00, Diumenge 10:00–18:00 (les hores festives poden variar).\n\nVols que comprovi la disponibilitat d'algun producte o t'ajudi a fer la comanda? Què necessites?"
+    }
+  ],
+  "startTime": 1763568333563,
+  "endTime": 1763568361579
+}

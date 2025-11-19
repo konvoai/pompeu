@@ -1,0 +1,34 @@
+{
+  "goal": "Your goal is to find out if there is any ongoing discounts",
+  "modelName": "openaiGpt5Nano",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "gpt-5-nano",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola! Estic mirant descomptes. Hi ha descomptes en curs a Mountain Peak ara mateix? Hi ha codis promocionals, ofertes per categories, o descomptes de fidelitat per a nous clients? Quin tipus d'artícl t'interessa i fins a quan duren les ofertes? Gràcies!"
+    },
+    {
+      "from": "store",
+      "message": "Hola! Gràcies per preguntar. Aquí tens un resum dels descomptes actuals a Mountain Peak Outdoor Supply:\n\n- Descomptes de fidelitat\n  - Summit Club: 10% de descompte en la major part de les compres, accés anticipat a vendes, dues reserves d’equip gratuïtes per any i invitacions a esdeveniments per socis. Cost del recolzament: 25$/any.\n\n- Enviament gratuït\n  - Enviament gratuït per a comandes superiors a 75$. També disponible l’opció de recollir a la botiga (online i recollida en botiga). \n\n- Codis promocionals per a nous clients\n  - Per a nous clients online, un codi de benvinguda pot donar descompte en la primera compra (p. ex. WELCOME15 per 15% de descompte fins a un màxim establert). En alguns casos la promoció és vàlida només per a imports mínims. Verifica a la pàgina d’inici o a la cistella de compra per les condicions actuals.\n\n- Ofertes per categories (promocions variables)\n  - Tents, sacs de dormir, malles i roba d’abric, i equips de escalada sovint tenen descomptes puntuals o setmanals.\n  - Per exemple, poden haver descomptes de fins a 25% en certs articles de Camping & Hiking o fins a 20% en equips de escalada selectes. Les ofertes del catàleg poden canviar segons stock i temporada.\n  - També poden haver promocions específiques com “Semana de roba” o “Promoció de temporada” que poden afectar diverses categories al mateix temps.\n\n- Durada de les ofertes\n  - La majoria de descomptes duren entre 1 i 2 setmanes o fins a esgotar existències. Hi ha ofertes especials de cap de setmana o de temporada que poden tenir dates concretes.\n  - I, sempre que et subscribis a la nostra newsletter o segueixis la secció d’Ofertes a la web, rebràs notificacions de noves promeses i codis.\n\nQuin tipus d’article t’interessa? (p. d. tents, roba, equips de escalada, GPS, etc.) Digue’m també si compres online o en alguna de les nostres botigues (Boulder, Denver, Fort Collins, Durango, Salt Lake City). Si em dius l’article concret i el pressupost, t’indico les ofertes i codis actuals aplicables i, si vols, et puc simular com quedaria el preu amb el codi en la teva cistella. També et puc ajudar a trobar la millor oferta segons la teva ubicació i la data prevista de compra."
+    }
+  ],
+  "startTime": 1763568333562,
+  "endTime": 1763568410058
+}

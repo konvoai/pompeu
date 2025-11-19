@@ -1,0 +1,42 @@
+Metadata-Version: 2.4
+Name: pompeu-fabra
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas>=2.2
+Requires-Dist: matplotlib>=3.8
+Requires-Dist: seaborn>=0.13
+Dynamic: license-file
+
+# pompeu-fabra
+
+A catalogue of LLMs (picked completely manually) and how well they hold a
+Catalan conversation for common retail scenarios.
+
+## Overview
+- Source conversations live in `judgements/` (127 dialogues across 20 model variants, including one internal `judger` baseline).
+- `uv run analysis` aggregates those judgements into tables and figures under `analysis/`.
+- Outputs include machine-readable CSVs plus PNG charts ready for slide decks or reports.
+
+## Running the analysis
+```
+uv run analysis
+```
+
+The command will install the required Python dependencies (pandas, seaborn, matplotlib), recompute every aggregate, and refresh the artefacts inside `analysis/`.
+
+## Highlights from the latest run
+- `openaiO3` leads on overall score (0.949), narrowly ahead of `grok4NotSoFast` (0.937) and `openaiGpt4oMini` (0.928).
+- Most frontier models maintain ≥0.9 quality and grammar averages; completeness is the differentiator that separates the leaders.
+- `amazonBedrockClaude35Haiku` registers zeros across all metrics, signalling either systematically poor Catalan output or upstream grading issues worth double-checking.
+
+Key artefacts:
+- `analysis/overall_score_by_model.png` – bar chart of overall averages.
+- `analysis/metric_heatmap.png` – heat map showing each metric per model.
+- `analysis/overall_score_distribution.png` – distribution of overall scores across every dialogue.
+- `analysis/metrics_by_model.csv` – per-model averages ready for spreadsheet work.
+- `analysis/judgements_flat.csv` – flattened row-per-judgement export if you want to slice further.
+
+Re-run the analysis after dropping new JSON files into `judgements/` to keep the numbers fresh.

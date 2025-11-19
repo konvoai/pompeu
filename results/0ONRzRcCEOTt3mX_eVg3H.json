@@ -1,0 +1,24 @@
+{
+  "goal": "Your goal is to try to find out what is the address of the store.",
+  "modelName": "anthropicClaude45Sonnet",
+  "model": {
+    "specificationVersion": "v2",
+    "modelId": "claude-sonnet-4-5-20250929",
+    "config": {
+      "provider": "anthropic.messages",
+      "baseURL": "https://api.anthropic.com/v1"
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "\n<hr>\n\nHola! Bon dia! Estic buscant informació sobre la vostra botiga. M'agradaria saber on us trobeu exactament. Teniu una adreça física que pugui visitar?"
+    },
+    {
+      "from": "store",
+      "message": "Bon dia! Per descomptat, estaré encantat d'ajudar-te! 🏔️\n\nSí, tenim diverses botigues físiques que pots visitar. Totes les nostres ubicacions estan a la zona de Colorado i Utah:\n\n**Botiga Principal - Boulder, CO**\n2847 Canyon Boulevard, Boulder, CO 80302\n\n**Ubicació de Denver**\n1523 Larimer Street, Denver, CO 80202\n\n**Botiga de Fort Collins**\n891 College Avenue, Fort Collins, CO 80524\n\n**Punt de Durango**\n456 Main Avenue, Durango, CO 81301\n\n**Salt Lake City, UT**\n732 South State Street, Salt Lake City, UT 84111\n\nTotes les nostres botigues tenen horaris similars:\n- **Dilluns a Divendres:** 9:00 AM - 8:00 PM\n- **Dissabte:** 8:00 AM - 9:00 PM\n- **Diumenge:** 10:00 AM - 6:00 PM\n\nQuina botiga t'interessa visitar? O estàs buscant algun tipus d'equipament en particular? El nostre personal està format per entusiastes de l'aire lliure amb molta experiència i els encanta ajudar! 😊"
+    }
+  ],
+  "startTime": 1763568333564,
+  "endTime": 1763568353872
+}

@@ -1,0 +1,29 @@
+{
+  "goal": "Your goal is to find out if there is any ongoing discounts",
+  "modelName": "grok4NotSoFast",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ]
+    },
+    "modelId": "grok-4",
+    "config": {
+      "provider": "xai.chat",
+      "baseURL": "https://api.x.ai/v1"
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola! Estic interessat en alguns productes de la vostra botiga. Hi ha alguna promoció o descompte actiu ara mateix?"
+    },
+    {
+      "from": "store",
+      "message": "Hola! Moltes gràcies per l'interès en els nostres productes a Mountain Peak Outdoor Supply. Estem encantats d'ajudar-te!\n\nAra mateix, tenim algunes promocions actives per fer que les teves aventures siguin encara més assequibles:\n\n- **Descompte del 20% en equipament de càmping i senderisme**: Aplica a tendes, sacs de dormir i motxilles seleccionades. És perfecte per preparar la temporada d'estiu! (Vàlid fins al 31 de juliol).\n- **Oferta especial en roba tècnica**: Compra una jaqueta impermeable i porta't un 15% de descompte en pantalons o capes base. Ideal per a les pluges imprevisibles de muntanya.\n- **Programa de fidelitat Summit Club**: Si ets membre (només 25$ anuals), gaudeixes d'un 10% de descompte en la majoria de compres, a més de lloguers gratuïts dues vegades l'any.\n\nA més, recorda que fem igualació de preus amb altres grans botigues d'equipament outdoor, així que si veus una oferta millor en un altre lloc, ens ho dius!\n\nEn quins productes estàs interessat específicament? Potser et puc recomanar alguna cosa o comprovar disponibilitat a les nostres botigues. Estem oberts de dilluns a divendres de 9:00 a 20:00, i pots fer comandes en línia amb enviament gratuït per sobre de 75$. 😊"
+    }
+  ],
+  "startTime": 1763568333566,
+  "endTime": 1763568387325
+}

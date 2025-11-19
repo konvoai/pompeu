@@ -1,0 +1,23 @@
+{
+  "goal": "Your goal is to find out if there is any ongoing discounts",
+  "modelName": "gptOss120b",
+  "model": {
+    "modelId": "openai.gpt-oss-120b-1:0",
+    "config": {},
+    "specificationVersion": "v2",
+    "provider": "amazon-bedrock",
+    "supportedUrls": {}
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Bon dia! Em preguntava si teniu alguna promoció o descompte vigent ara mateix. 🙂"
+    },
+    {
+      "from": "store",
+      "message": "Bon dia! 😄  \n\nEn aquest moment tenim diverses promocions actives a Mountain Peak Outdoor Supply. Aquí et deixo les més destacades:\n\n| Promoció | Fins a | Detalls |\n|----------|--------|---------|\n| **Descompte d’estiu – fins al 30 %** | 31 de desembre | Totes les tendes de campanya i les motxilles de senderisme estan en oferta. Ideal per preparar la teva propera escapada d’aventura. |\n| **Pack “Aventura Completa”** | 15 de gener | Compra una tenda + sac de dormir + mat sense aire i obtén‑ho tot un 20 % de descompte addicional. |\n| **Descompte per al Club Summit** | Obert tot l’any | Els membres del Club Summit repen un 10 % extra de repte en qualsevol compra, a més del benefici de les dues préstecs de maquinària gratuïts al any. |\n| **Rentals +10 %** | 30 de novembre | Si reserves lloguer de tiquets, corbes o motxilles amb 24 h d’antelació, rebàs un 10 % de descompte sobre el preu normal. |\n| **Match de preus** | Sempre | Igualarem el preu de qualsevol producte que trobis més barat a una cadena competidora (mostra la publicació o captura de pantalla). |\n\n### Alguna cosa concreta que busques?\n- **Tendes**: la “Summit 4‑temporada” està a 299 € (de 399 €).  \n- **Motxilles de trekking**: la “Alpine 65L” té un 25 % de descompte fins al 20 % de novembre.  \n- **Equip de escalada**: “Rocsafe Harness” + “Carabiners set” per només 119 € (de 149 €).  \n\nSi prefereixes veure la llista completa o vols una recomanació personalitzada per al teu pròxim viatge, pots passar per la nostra botiga de Boulder o Denver, o trucar al **+1 303 555 0198**. També pots consultar la secció “Promocions” al nostre lloc web: **www.mountainpeakoutdoor.com/promocions**.\n\nQuè t’interessa més? Estic aquí per ajudar‑te a trobar la millor oferta! 🌄"
+    }
+  ],
+  "startTime": 1763568333565,
+  "endTime": 1763568342395
+}

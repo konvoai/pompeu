@@ -1,0 +1,24 @@
+{
+  "goal": "Your goal is to find out the opening times",
+  "modelName": "anthropicClaude45Sonnet",
+  "model": {
+    "specificationVersion": "v2",
+    "modelId": "claude-sonnet-4-5-20250929",
+    "config": {
+      "provider": "anthropic.messages",
+      "baseURL": "https://api.anthropic.com/v1"
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "\n<assistant_message>\n\nHola! Benvingut/da a Mountain Peak. Com et puc ajudar avui?\n\n</assistant_message>\n\n<hr>\n\nHola! Bon dia. M'agradaria saber quin és el vostre horari d'obertura, si us plau."
+    },
+    {
+      "from": "store",
+      "message": "Bon dia! Encantada d'ajudar-te! 😊\n\nEls nostres horaris d'obertura són:\n\n**De dilluns a divendres:** 9:00 - 20:00\n**Dissabtes:** 8:00 - 21:00\n**Diumenges:** 10:00 - 18:00\n\nAquests horaris s'apliquen a totes les nostres botigues. Si vols visitar-nos en algun dia festiu, et recomano que truquis abans o consultis la nostra pàgina web, ja que els horaris poden variar durant les festivitats.\n\nTens pensat visitar alguna botiga en concret? Tenim 5 ubicacions: Boulder, Denver, Fort Collins i Durango a Colorado, i també Salt Lake City a Utah.\n\nHi ha alguna cosa més en què et pugui ajudar? 🏔️"
+    }
+  ],
+  "startTime": 1763568333565,
+  "endTime": 1763568350167
+}

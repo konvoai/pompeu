@@ -1,0 +1,34 @@
+{
+  "goal": "Your goal is to find out if they deliver to the following address: 2847 Canyon Boulevard, Boulder, CO 80302",
+  "modelName": "openaiGpt5Nano",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ],
+      "application/pdf": [
+        {}
+      ]
+    },
+    "modelId": "gpt-5-nano",
+    "config": {
+      "provider": "openai.responses",
+      "fileIdPrefixes": [
+        "file-"
+      ]
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola! Vull saber si feu lliuraments a aquesta adreça: 2847 Canyon Boulevard, Boulder, CO 80302. Podries confirmar si envieu allí i, si és possible, quins són els costos i els terminis de lliurament? Gràcies!"
+    },
+    {
+      "from": "store",
+      "message": "Sí, enviem a la direcció que has donat: 2847 Canyon Boulevard, Boulder, CO 80302.\n\nPolítica d’enviament (e-commerce Mountain Peak):\n- Enviament gratuït: per a comandes superiors a 75 USD.\n- Enviament amb cost: per a comandes fins a 75 USD, el cost d’enviament és d’aproximadament 6,95 USD (el preu exacte depèn del pes i de les dimensions).\n- Terminis: lliurament estàndard entre 3 i 5 dies hàbils dins de la resta continental dels EUA. A la caixa de compra poden sortir opcions d’enviament ràpid (2 dies o 1 dia) amb tarifes addicionals.\n- Recollida a la botiga: disponible amb recollida en el Boulder Flagship en el mateix dia, segons disponibilitat del producte.\n\nSi vols, puc fer una estimació exacta per a la teva comanda concreta. Digues quins productes vols i el teu codi postal, i t’indico el cost d’enviament i els temps reals per a aquesta adreça. Vols que comprovem disponibilitat per a recollida al Boulder ara mateix?"
+    }
+  ],
+  "startTime": 1763568333562,
+  "endTime": 1763568394114
+}

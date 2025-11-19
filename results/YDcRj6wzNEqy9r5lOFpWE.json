@@ -1,0 +1,45 @@
+{
+  "goal": "Your goal is to find out if there is any ongoing discounts",
+  "modelName": "grok4Fastest",
+  "model": {
+    "specificationVersion": "v2",
+    "supportedUrls": {
+      "image/*": [
+        {}
+      ]
+    },
+    "modelId": "grok-4-fast-non-reasoning",
+    "config": {
+      "provider": "xai.chat",
+      "baseURL": "https://api.x.ai/v1"
+    }
+  },
+  "conversation": [
+    {
+      "from": "buyer",
+      "message": "Hola! Estic interessat en comprar roba de muntanya, però abans voldria saber si teniu algun descompte o promoció activa en aquest moment."
+    },
+    {
+      "from": "store",
+      "message": "¡Hola! Moltes gràcies pel teu interès en Mountain Peak Outdoor Supply. Estem encantats que vulguis comprar roba de muntanya; tenim una gran selecció de peces resistents a la intempèrie, com jaquetes i pantalons tècnics, i roba de capes base per a aventures a l'alta muntanya.\n\nEn aquest moment, tenim una promoció activa molt interessant: **el 20% de descompte en tota la roba de muntanya i equipament tèxtil** fins al final del mes, per celebrar la temporada d'estiu. A més, si ets membre del nostre programa de fidelitat Summit Club (només 25$/any), pots obtenir un 10% addicional i accés anticipat a vendes exclusives. Si fas una compra superior a 75$, l'enviament és gratuït si ho fas online.\n\nSi em dones més detalls sobre el tipus de roba que busques (per exemple, per hiking, escalada o fred intens), et puc recomanar opcions específiques i veure si s'apliquen descomptes addicionals. Pots venir a qualsevol de les nostres botigues o visitar el nostre lloc web per reservar! Què et sembla? 😊"
+    },
+    {
+      "from": "buyer",
+      "message": "Gràcies per la info! El 20% de descompte sona genial, especialment amb l'opció del Summit Club per un extra. Busco una jaqueta per hiking en zones humides, alguna cosa impermeable i transpirable. Hi ha algun descompte específic en jaquetes ara mateix?"
+    },
+    {
+      "from": "store",
+      "message": "¡Hola de nou! Molt content que t'hagi agradat la info sobre el descompte. Sí, el 20% en tota la roba de muntanya s'aplica perfectament a les jaquetes per hiking, incloent models impermeables i transpirables. De fet, com que estem en promoció estival, hi ha un descompte específic addicional: **fins al 25% en jaquetes tècniques seleccionades** per zones humides, com les de la línia Gore-Tex o similars, que combinen impermeabilitat amb transpirabilitat per mantenir-te sec i còmode durant rutes plujoses.\n\nEt recomano algunes opcions populars que tenim ara mateix en estoc (preus aproximats abans de descompte, i amb el 25% aplicat si és la promoció especial):\n\n- **Jaqueta Mountain Peak RainGuard Pro**: Impermeable amb membrana transpirable, caputxa ajustable i butxaques segures. Ideal per hiking moderat en zones humides com els Pirineus o la serra. Preu original: 180€, ara: 135€ (25% off). És una de les nostres best-sellers per la seva relació qualitat-preu.\n  \n- **Jaqueta Summit Waterproof Hiker**: Més lleugera i plegable, amb tecnologia de respiració avançada per evitar la suor en ascensions. Perfecta si busques alguna cosa compacta per la motxilla. Preu original: 150€, ara: 112.50€ (25% off).\n\n- **Opció premium: Jaqueta Apex Gore-Tex**: Per condicions extremes, amb ventilació lateral i resistència a vents forts. Preu original: 250€, ara: 187.50€ (25% off).\n\nSi ets membre del Summit Club (o et fas ara), pots afegir un 10% extra, baixant el preu encara més (per exemple, la RainGuard Pro sortiria per uns 121.50€). Tot això està disponible en les nostres botigues de Boulder, Denver o Salt Lake City, o online amb enviament gratuït si passes de 75€.\n\nSi em dius el teu pressupost, mida o si prefereixes una marca específica (com Patagonia o The North Face, que també tenim), et puc donar recomanacions més personalitzades. Vols que et reservi alguna o necessites més detalls? 😊"
+    },
+    {
+      "from": "buyer",
+      "message": "Gràcies per les recomanacions tan detallades! La Jaqueta Mountain Peak RainGuard Pro em sembla perfecta pel meu pressupost i necessitats, amb aquest 25% de descompte més l'opció del 10% extra del Summit Club. Confirmes que el descompte del 20% general s'aplica a totes les jaquetes, i el 25% és addicional en aquestes models seleccionats? Vols que et doni el meu correu per reservar-la online? 😊"
+    },
+    {
+      "from": "store",
+      "message": "¡Hola! Moltes gràcies per la teva resposta tan positiva; m'encanta quan trobem la peça perfecta per a les aventures! Sí, confirmo: el descompte general del 20% s'aplica a tota la roba de muntanya, incloent totes les jaquetes per hiking. Però per a models seleccionats com la RainGuard Pro, tenim una promoció especial que la porta al 25% de descompte, ja que és una de les nostres línies estrella per zones humides. És millor que el general, així que no s'apila; simplement, s'aplica el més alt (el 25%). I sí, si et fas membre del Summit Club (25$/any, o equivalent en € segons la teva ubicació), pots afegir un 10% extra sobre el preu descomptat, fent que la RainGuard Pro quedi en uns 121.50€ (o el preu ajustat en la teva moneda). És una ganga absoluta!\n\nPer reservar-la online, no necessito el teu correu aquí directament (per privacitat), però pots fer-ho fàcilment al nostre lloc web: visita mountainpeakoutdoors.com, busca \"RainGuard Pro\" a la secció de jaquetes per hiking, i selecciona la mida i color que vulguis. Si vols reservar per recollida en botiga o amb enviament, simplement crea un compte ràpid o continua com a convidat – i si em dones més detalls com la mida (S, M, L, etc.), et puc confirmar l'estoc disponible en temps real per evitar sorpreses.\n\nSi prefereixes, pots trucar-nos al +1-303-555-1234 (el nostre número principal) o enviar un missatge directe al web per reservar. Què et sembla si em dius la mida i el color preferit per veure si puc guiar-te millor en el procés? Estem aquí per fer-ho súper fàcil! 😊"
+    }
+  ],
+  "startTime": 1763568333565,
+  "endTime": 1763568355802
+}
